@@ -1,0 +1,526 @@
+2021-09-02 12:02:04 INFO: using autotuned alpha, starting with [0.33333334, 0.33333334, 0.33333334]
+2021-09-02 12:02:04 INFO: using serial LDA version on this node
+2021-09-02 12:02:04 INFO: running online (multi-pass) LDA training, 3 topics, 20 passes over the supplied corpus of 21 documents, updating model once every 15 documents, evaluating perplexity every 0 documents, iterating 100x with a convergence threshold of 0.001000
+2021-09-02 12:02:04 INFO: PROGRESS: pass 0, at document #15/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:04 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.19496775, 0.33180243, 0.2954035]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.195): 0.223*"horse" + 0.148*"race" + 0.079*"record" + 0.079*"derby" + 0.077*"dirt" + 0.076*"olympic" + 0.076*"sport" + 0.076*"team" + 0.012*"odds" + 0.012*"model"
+2021-09-02 12:02:04 INFO: topic #1 (0.332): 0.140*"track" + 0.140*"horse" + 0.116*"odds" + 0.094*"win" + 0.094*"race" + 0.093*"sire" + 0.048*"weight" + 0.048*"kentucky" + 0.048*"derby" + 0.047*"record"
+2021-09-02 12:02:04 INFO: topic #2 (0.295): 0.177*"statistic" + 0.141*"probability" + 0.140*"equation" + 0.140*"model" + 0.107*"survey" + 0.072*"estimate" + 0.072*"regression" + 0.040*"odds" + 0.038*"weight" + 0.007*"horse"
+2021-09-02 12:02:04 INFO: topic diff=5.165956, rho=1.000000
+2021-09-02 12:02:04 INFO: PROGRESS: pass 0, at document #21/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:04 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.29337472, 0.29829276, 0.14901273]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.293): 0.156*"olympic" + 0.151*"gold" + 0.134*"swim" + 0.118*"team" + 0.091*"country" + 0.063*"medal" + 0.062*"record" + 0.056*"horse" + 0.045*"race" + 0.044*"sport"
+2021-09-02 12:02:04 INFO: topic #1 (0.298): 0.273*"win" + 0.097*"weight" + 0.076*"horse" + 0.075*"track" + 0.066*"record" + 0.063*"odds" + 0.061*"race" + 0.051*"sire" + 0.037*"gold" + 0.027*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.149): 0.153*"statistic" + 0.123*"probability" + 0.122*"equation" + 0.122*"model" + 0.094*"survey" + 0.065*"estimate" + 0.065*"regression" + 0.041*"weight" + 0.038*"odds" + 0.011*"horse"
+2021-09-02 12:02:04 INFO: topic diff=2.562867, rho=0.707107
+2021-09-02 12:02:04 DEBUG: bound: at document #0
+2021-09-02 12:02:04 DEBUG: bound: at document #15
+2021-09-02 12:02:04 INFO: Epoch 0: Perplexity estimate: 13.87520825638465
+2021-09-02 12:02:04 INFO: Epoch 0: Convergence estimate: 2.5237477252398137
+2021-09-02 12:02:04 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:04 INFO: Epoch 0: Coherence estimate: -4.294062754794052
+2021-09-02 12:02:04 INFO: PROGRESS: pass 1, at document #15/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:04 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.1611779, 0.2774387, 0.1470156]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.161): 0.155*"olympic" + 0.130*"gold" + 0.123*"team" + 0.116*"swim" + 0.079*"country" + 0.075*"record" + 0.062*"race" + 0.060*"sport" + 0.055*"medal" + 0.050*"horse"
+2021-09-02 12:02:04 INFO: topic #1 (0.277): 0.150*"horse" + 0.136*"win" + 0.108*"track" + 0.098*"odds" + 0.089*"race" + 0.072*"sire" + 0.066*"weight" + 0.051*"derby" + 0.048*"record" + 0.037*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.147): 0.180*"statistic" + 0.145*"probability" + 0.145*"equation" + 0.144*"model" + 0.109*"survey" + 0.074*"estimate" + 0.074*"regression" + 0.024*"odds" + 0.022*"weight" + 0.005*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.875722, rho=0.542326
+2021-09-02 12:02:04 INFO: PROGRESS: pass 1, at document #21/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:04 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.22571035, 0.2584594, 0.111384325]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.226): 0.171*"gold" + 0.150*"olympic" + 0.140*"swim" + 0.114*"team" + 0.103*"country" + 0.070*"medal" + 0.067*"record" + 0.043*"sport" + 0.039*"horse" + 0.037*"race"
+2021-09-02 12:02:04 INFO: topic #1 (0.258): 0.260*"win" + 0.110*"horse" + 0.102*"weight" + 0.078*"race" + 0.077*"track" + 0.070*"odds" + 0.052*"sire" + 0.052*"record" + 0.038*"derby" + 0.028*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.111): 0.164*"statistic" + 0.132*"probability" + 0.132*"equation" + 0.132*"model" + 0.101*"survey" + 0.070*"estimate" + 0.070*"regression" + 0.025*"odds" + 0.023*"weight" + 0.008*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.596073, rho=0.542326
+2021-09-02 12:02:04 DEBUG: bound: at document #0
+2021-09-02 12:02:04 DEBUG: bound: at document #15
+2021-09-02 12:02:04 INFO: Epoch 1: Perplexity estimate: 12.511123758106939
+2021-09-02 12:02:04 INFO: Epoch 1: Convergence estimate: 1.561897141699406
+2021-09-02 12:02:04 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:04 INFO: Epoch 1: Coherence estimate: -4.259068683978106
+2021-09-02 12:02:04 INFO: PROGRESS: pass 2, at document #15/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:04 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.1462584, 0.24371065, 0.11340841]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.146): 0.152*"gold" + 0.150*"olympic" + 0.125*"swim" + 0.119*"team" + 0.092*"country" + 0.077*"record" + 0.063*"medal" + 0.056*"sport" + 0.050*"race" + 0.036*"horse"
+2021-09-02 12:02:04 INFO: topic #1 (0.244): 0.154*"horse" + 0.143*"win" + 0.105*"track" + 0.101*"odds" + 0.092*"race" + 0.074*"weight" + 0.070*"sire" + 0.052*"derby" + 0.044*"record" + 0.036*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.113): 0.185*"statistic" + 0.149*"probability" + 0.148*"equation" + 0.148*"model" + 0.112*"survey" + 0.076*"estimate" + 0.076*"regression" + 0.012*"odds" + 0.010*"weight" + 0.004*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.593699, rho=0.476731
+2021-09-02 12:02:04 INFO: PROGRESS: pass 2, at document #21/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:04 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.19939634, 0.24808484, 0.09450401]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.199): 0.176*"gold" + 0.150*"olympic" + 0.142*"swim" + 0.114*"team" + 0.106*"country" + 0.071*"medal" + 0.070*"record" + 0.044*"sport" + 0.036*"silver" + 0.034*"race"
+2021-09-02 12:02:04 INFO: topic #1 (0.248): 0.243*"win" + 0.132*"horse" + 0.102*"weight" + 0.083*"race" + 0.079*"track" + 0.076*"odds" + 0.053*"sire" + 0.045*"record" + 0.040*"derby" + 0.028*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.095): 0.170*"statistic" + 0.138*"probability" + 0.137*"equation" + 0.137*"model" + 0.105*"survey" + 0.072*"estimate" + 0.072*"regression" + 0.014*"odds" + 0.013*"weight" + 0.007*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.468861, rho=0.476731
+2021-09-02 12:02:04 DEBUG: bound: at document #0
+2021-09-02 12:02:04 DEBUG: bound: at document #15
+2021-09-02 12:02:04 INFO: Epoch 2: Perplexity estimate: 12.039749892482781
+2021-09-02 12:02:04 INFO: Epoch 2: Convergence estimate: 2.179059359503055
+2021-09-02 12:02:04 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:04 INFO: Epoch 2: Coherence estimate: -4.259068683978106
+2021-09-02 12:02:04 INFO: PROGRESS: pass 3, at document #15/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:04 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.14004946, 0.233504, 0.097515054]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.140): 0.159*"gold" + 0.150*"olympic" + 0.128*"swim" + 0.118*"team" + 0.096*"country" + 0.078*"record" + 0.065*"medal" + 0.055*"sport" + 0.046*"race" + 0.034*"silver"
+2021-09-02 12:02:04 INFO: topic #1 (0.234): 0.159*"horse" + 0.146*"win" + 0.103*"track" + 0.101*"odds" + 0.093*"race" + 0.077*"weight" + 0.069*"sire" + 0.052*"derby" + 0.042*"record" + 0.035*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.098): 0.186*"statistic" + 0.150*"probability" + 0.150*"equation" + 0.150*"model" + 0.113*"survey" + 0.077*"estimate" + 0.077*"regression" + 0.007*"odds" + 0.006*"weight" + 0.004*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.465390, rho=0.430331
+2021-09-02 12:02:04 INFO: PROGRESS: pass 3, at document #21/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:04 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.18647222, 0.24364077, 0.08485379]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.186): 0.178*"gold" + 0.151*"olympic" + 0.143*"swim" + 0.116*"team" + 0.107*"country" + 0.072*"medal" + 0.072*"record" + 0.045*"sport" + 0.037*"silver" + 0.034*"race"
+2021-09-02 12:02:04 INFO: topic #1 (0.244): 0.229*"win" + 0.150*"horse" + 0.099*"weight" + 0.085*"race" + 0.079*"track" + 0.078*"odds" + 0.054*"sire" + 0.042*"record" + 0.041*"derby" + 0.028*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.085): 0.173*"statistic" + 0.140*"probability" + 0.140*"equation" + 0.140*"model" + 0.107*"survey" + 0.073*"estimate" + 0.073*"regression" + 0.009*"odds" + 0.009*"weight" + 0.007*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.374387, rho=0.430331
+2021-09-02 12:02:04 DEBUG: bound: at document #0
+2021-09-02 12:02:04 DEBUG: bound: at document #15
+2021-09-02 12:02:04 INFO: Epoch 3: Perplexity estimate: 11.81948200064798
+2021-09-02 12:02:04 INFO: Epoch 3: Convergence estimate: 2.7011448561836153
+2021-09-02 12:02:04 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:04 INFO: Epoch 3: Coherence estimate: -4.259068683978106
+2021-09-02 12:02:04 INFO: PROGRESS: pass 4, at document #15/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:04 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.13711734, 0.22890124, 0.08809288]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.137): 0.162*"gold" + 0.151*"olympic" + 0.131*"swim" + 0.119*"team" + 0.098*"country" + 0.079*"record" + 0.066*"medal" + 0.055*"sport" + 0.044*"race" + 0.034*"silver"
+2021-09-02 12:02:04 INFO: topic #1 (0.229): 0.165*"horse" + 0.147*"win" + 0.101*"track" + 0.101*"odds" + 0.093*"race" + 0.078*"weight" + 0.068*"sire" + 0.051*"derby" + 0.041*"record" + 0.035*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.088): 0.186*"statistic" + 0.150*"probability" + 0.150*"equation" + 0.150*"model" + 0.114*"survey" + 0.077*"estimate" + 0.077*"regression" + 0.005*"odds" + 0.005*"weight" + 0.004*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.378917, rho=0.395285
+2021-09-02 12:02:04 INFO: PROGRESS: pass 4, at document #21/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:04 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.17897233, 0.23996057, 0.0785472]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.179): 0.179*"gold" + 0.152*"olympic" + 0.144*"swim" + 0.116*"team" + 0.108*"country" + 0.073*"record" + 0.073*"medal" + 0.045*"sport" + 0.037*"silver" + 0.034*"race"
+2021-09-02 12:02:04 INFO: topic #1 (0.240): 0.220*"win" + 0.161*"horse" + 0.096*"weight" + 0.086*"race" + 0.080*"track" + 0.080*"odds" + 0.054*"sire" + 0.041*"derby" + 0.040*"record" + 0.028*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.079): 0.175*"statistic" + 0.141*"probability" + 0.141*"equation" + 0.141*"model" + 0.108*"survey" + 0.074*"estimate" + 0.074*"regression" + 0.007*"odds" + 0.007*"weight" + 0.007*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.315576, rho=0.395285
+2021-09-02 12:02:04 DEBUG: bound: at document #0
+2021-09-02 12:02:04 DEBUG: bound: at document #15
+2021-09-02 12:02:04 INFO: Epoch 4: Perplexity estimate: 11.697240541158308
+2021-09-02 12:02:04 INFO: Epoch 4: Convergence estimate: 1.597679281301442
+2021-09-02 12:02:04 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:04 INFO: Epoch 4: Coherence estimate: -4.259068683978106
+2021-09-02 12:02:04 INFO: PROGRESS: pass 5, at document #15/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:04 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.1356177, 0.22549063, 0.08176964]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.136): 0.165*"gold" + 0.152*"olympic" + 0.132*"swim" + 0.119*"team" + 0.100*"country" + 0.080*"record" + 0.067*"medal" + 0.054*"sport" + 0.044*"race" + 0.035*"silver"
+2021-09-02 12:02:04 INFO: topic #1 (0.225): 0.170*"horse" + 0.149*"win" + 0.100*"track" + 0.100*"odds" + 0.093*"race" + 0.078*"weight" + 0.067*"sire" + 0.051*"derby" + 0.040*"record" + 0.035*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.082): 0.186*"statistic" + 0.150*"probability" + 0.150*"equation" + 0.150*"model" + 0.114*"survey" + 0.077*"estimate" + 0.077*"regression" + 0.005*"odds" + 0.005*"weight" + 0.004*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.327877, rho=0.367607
+2021-09-02 12:02:04 INFO: PROGRESS: pass 5, at document #21/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:04 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.17414883, 0.23658651, 0.07408722]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.174): 0.179*"gold" + 0.153*"olympic" + 0.144*"swim" + 0.117*"team" + 0.108*"country" + 0.074*"record" + 0.073*"medal" + 0.046*"sport" + 0.037*"silver" + 0.034*"race"
+2021-09-02 12:02:04 INFO: topic #1 (0.237): 0.214*"win" + 0.167*"horse" + 0.095*"weight" + 0.086*"race" + 0.081*"track" + 0.081*"odds" + 0.055*"sire" + 0.042*"derby" + 0.039*"record" + 0.029*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.074): 0.176*"statistic" + 0.142*"probability" + 0.142*"equation" + 0.142*"model" + 0.108*"survey" + 0.074*"estimate" + 0.074*"regression" + 0.007*"odds" + 0.007*"weight" + 0.006*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.290754, rho=0.367607
+2021-09-02 12:02:04 DEBUG: bound: at document #0
+2021-09-02 12:02:04 DEBUG: bound: at document #15
+2021-09-02 12:02:04 INFO: Epoch 5: Perplexity estimate: 11.61645030294819
+2021-09-02 12:02:04 INFO: Epoch 5: Convergence estimate: 1.321185528129371
+2021-09-02 12:02:04 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:04 INFO: Epoch 5: Coherence estimate: -4.259068683978106
+2021-09-02 12:02:04 INFO: PROGRESS: pass 6, at document #15/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:04 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.13485947, 0.22262225, 0.07721344]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.135): 0.166*"gold" + 0.153*"olympic" + 0.133*"swim" + 0.120*"team" + 0.101*"country" + 0.080*"record" + 0.068*"medal" + 0.054*"sport" + 0.043*"race" + 0.035*"silver"
+2021-09-02 12:02:04 INFO: topic #1 (0.223): 0.172*"horse" + 0.150*"win" + 0.099*"track" + 0.099*"odds" + 0.092*"race" + 0.078*"weight" + 0.067*"sire" + 0.050*"derby" + 0.040*"record" + 0.034*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.077): 0.186*"statistic" + 0.150*"probability" + 0.150*"equation" + 0.150*"model" + 0.113*"survey" + 0.077*"regression" + 0.077*"estimate" + 0.005*"odds" + 0.004*"weight" + 0.004*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.295457, rho=0.345033
+2021-09-02 12:02:04 INFO: PROGRESS: pass 6, at document #21/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:04 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.17083614, 0.23352946, 0.07076444]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.171): 0.179*"gold" + 0.153*"olympic" + 0.144*"swim" + 0.117*"team" + 0.108*"country" + 0.075*"record" + 0.073*"medal" + 0.046*"sport" + 0.037*"silver" + 0.034*"race"
+2021-09-02 12:02:04 INFO: topic #1 (0.234): 0.210*"win" + 0.170*"horse" + 0.094*"weight" + 0.086*"race" + 0.081*"track" + 0.081*"odds" + 0.055*"sire" + 0.042*"derby" + 0.039*"record" + 0.029*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.071): 0.177*"statistic" + 0.143*"probability" + 0.143*"equation" + 0.143*"model" + 0.109*"survey" + 0.074*"regression" + 0.074*"estimate" + 0.006*"odds" + 0.006*"weight" + 0.006*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.278146, rho=0.345033
+2021-09-02 12:02:04 DEBUG: bound: at document #0
+2021-09-02 12:02:04 DEBUG: bound: at document #15
+2021-09-02 12:02:04 INFO: Epoch 6: Perplexity estimate: 11.561724124591944
+2021-09-02 12:02:04 INFO: Epoch 6: Convergence estimate: 1.288767874099934
+2021-09-02 12:02:04 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:04 INFO: Epoch 6: Coherence estimate: -4.259068683978106
+2021-09-02 12:02:04 INFO: PROGRESS: pass 7, at document #15/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:04 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.13452673, 0.22016029, 0.07377185]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.135): 0.167*"gold" + 0.153*"olympic" + 0.134*"swim" + 0.120*"team" + 0.101*"country" + 0.081*"record" + 0.068*"medal" + 0.054*"sport" + 0.042*"race" + 0.035*"silver"
+2021-09-02 12:02:04 INFO: topic #1 (0.220): 0.174*"horse" + 0.151*"win" + 0.099*"track" + 0.098*"odds" + 0.092*"race" + 0.078*"weight" + 0.066*"sire" + 0.050*"derby" + 0.040*"record" + 0.034*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.074): 0.186*"statistic" + 0.150*"probability" + 0.150*"equation" + 0.150*"model" + 0.113*"survey" + 0.077*"regression" + 0.077*"estimate" + 0.004*"odds" + 0.004*"weight" + 0.004*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.271705, rho=0.326164
+2021-09-02 12:02:04 INFO: PROGRESS: pass 7, at document #21/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:04 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.16845867, 0.23084314, 0.06819699]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.168): 0.179*"gold" + 0.153*"olympic" + 0.144*"swim" + 0.118*"team" + 0.108*"country" + 0.075*"record" + 0.073*"medal" + 0.047*"sport" + 0.037*"silver" + 0.034*"race"
+2021-09-02 12:02:04 INFO: topic #1 (0.231): 0.207*"win" + 0.171*"horse" + 0.093*"weight" + 0.087*"race" + 0.082*"track" + 0.082*"odds" + 0.056*"sire" + 0.042*"derby" + 0.039*"record" + 0.029*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.068): 0.177*"statistic" + 0.143*"probability" + 0.143*"equation" + 0.143*"model" + 0.109*"survey" + 0.075*"regression" + 0.075*"estimate" + 0.006*"odds" + 0.006*"weight" + 0.006*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.262406, rho=0.326164
+2021-09-02 12:02:04 DEBUG: bound: at document #0
+2021-09-02 12:02:04 DEBUG: bound: at document #15
+2021-09-02 12:02:04 INFO: Epoch 7: Perplexity estimate: 11.526704158725456
+2021-09-02 12:02:04 INFO: Epoch 7: Convergence estimate: 1.452360929002081
+2021-09-02 12:02:04 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:04 INFO: Epoch 7: Coherence estimate: -4.259068683978106
+2021-09-02 12:02:04 INFO: PROGRESS: pass 8, at document #15/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:04 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.13445292, 0.2180548, 0.07108347]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.134): 0.167*"gold" + 0.153*"olympic" + 0.134*"swim" + 0.120*"team" + 0.101*"country" + 0.081*"record" + 0.068*"medal" + 0.054*"sport" + 0.042*"race" + 0.035*"silver"
+2021-09-02 12:02:04 INFO: topic #1 (0.218): 0.174*"horse" + 0.152*"win" + 0.098*"track" + 0.098*"odds" + 0.092*"race" + 0.079*"weight" + 0.066*"sire" + 0.050*"derby" + 0.039*"record" + 0.034*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.071): 0.186*"statistic" + 0.150*"probability" + 0.150*"equation" + 0.150*"model" + 0.113*"survey" + 0.077*"regression" + 0.077*"estimate" + 0.004*"odds" + 0.004*"weight" + 0.004*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.251196, rho=0.310087
+2021-09-02 12:02:04 INFO: PROGRESS: pass 8, at document #21/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:04 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.16669731, 0.22853047, 0.06615907]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.167): 0.179*"gold" + 0.153*"olympic" + 0.144*"swim" + 0.118*"team" + 0.108*"country" + 0.076*"record" + 0.073*"medal" + 0.047*"sport" + 0.037*"silver" + 0.034*"race"
+2021-09-02 12:02:04 INFO: topic #1 (0.229): 0.205*"win" + 0.172*"horse" + 0.092*"weight" + 0.087*"race" + 0.083*"track" + 0.083*"odds" + 0.056*"sire" + 0.043*"derby" + 0.038*"record" + 0.029*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.066): 0.178*"statistic" + 0.143*"probability" + 0.143*"equation" + 0.143*"model" + 0.109*"survey" + 0.075*"regression" + 0.075*"estimate" + 0.006*"odds" + 0.006*"weight" + 0.006*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.245472, rho=0.310087
+2021-09-02 12:02:04 DEBUG: bound: at document #0
+2021-09-02 12:02:04 DEBUG: bound: at document #15
+2021-09-02 12:02:04 INFO: Epoch 8: Perplexity estimate: 11.503670259140842
+2021-09-02 12:02:04 INFO: Epoch 8: Convergence estimate: 1.9998361515155147
+2021-09-02 12:02:04 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:04 INFO: Epoch 8: Coherence estimate: -4.259068683978106
+2021-09-02 12:02:04 INFO: PROGRESS: pass 9, at document #15/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:04 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.13454784, 0.21629226, 0.0689309]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.135): 0.168*"gold" + 0.153*"olympic" + 0.135*"swim" + 0.120*"team" + 0.102*"country" + 0.081*"record" + 0.068*"medal" + 0.054*"sport" + 0.042*"race" + 0.035*"silver"
+2021-09-02 12:02:04 INFO: topic #1 (0.216): 0.174*"horse" + 0.153*"win" + 0.098*"track" + 0.098*"odds" + 0.092*"race" + 0.079*"weight" + 0.066*"sire" + 0.050*"derby" + 0.039*"record" + 0.034*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.069): 0.186*"statistic" + 0.150*"equation" + 0.150*"model" + 0.150*"probability" + 0.113*"survey" + 0.077*"regression" + 0.077*"estimate" + 0.004*"odds" + 0.004*"weight" + 0.004*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.233528, rho=0.296174
+2021-09-02 12:02:04 INFO: PROGRESS: pass 9, at document #21/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:04 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.16536756, 0.22657211, 0.06450805]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.165): 0.179*"gold" + 0.153*"olympic" + 0.143*"swim" + 0.118*"team" + 0.108*"country" + 0.076*"record" + 0.073*"medal" + 0.047*"sport" + 0.037*"silver" + 0.034*"race"
+2021-09-02 12:02:04 INFO: topic #1 (0.227): 0.203*"win" + 0.172*"horse" + 0.092*"weight" + 0.087*"race" + 0.083*"track" + 0.083*"odds" + 0.056*"sire" + 0.043*"derby" + 0.038*"record" + 0.029*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.065): 0.178*"statistic" + 0.144*"equation" + 0.144*"model" + 0.144*"probability" + 0.109*"survey" + 0.075*"regression" + 0.075*"estimate" + 0.006*"odds" + 0.006*"weight" + 0.006*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.230230, rho=0.296174
+2021-09-02 12:02:04 DEBUG: bound: at document #0
+2021-09-02 12:02:04 DEBUG: bound: at document #15
+2021-09-02 12:02:04 INFO: Epoch 9: Perplexity estimate: 11.486975001400735
+2021-09-02 12:02:04 INFO: Epoch 9: Convergence estimate: 2.104337660122716
+2021-09-02 12:02:04 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:04 INFO: Epoch 9: Coherence estimate: -4.235963777959442
+2021-09-02 12:02:04 INFO: PROGRESS: pass 10, at document #15/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:04 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.13475803, 0.21483946, 0.06717404]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.135): 0.168*"gold" + 0.153*"olympic" + 0.135*"swim" + 0.120*"team" + 0.102*"country" + 0.081*"record" + 0.069*"medal" + 0.053*"sport" + 0.042*"race" + 0.035*"silver"
+2021-09-02 12:02:04 INFO: topic #1 (0.215): 0.174*"horse" + 0.154*"win" + 0.098*"track" + 0.098*"odds" + 0.092*"race" + 0.079*"weight" + 0.066*"sire" + 0.050*"derby" + 0.039*"record" + 0.034*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.067): 0.186*"statistic" + 0.149*"equation" + 0.149*"model" + 0.149*"probability" + 0.113*"survey" + 0.077*"regression" + 0.077*"estimate" + 0.005*"odds" + 0.005*"weight" + 0.004*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.219053, rho=0.283981
+2021-09-02 12:02:04 INFO: PROGRESS: pass 10, at document #21/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:04 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:04 INFO: optimized alpha [0.16435373, 0.22492862, 0.06314883]
+2021-09-02 12:02:04 DEBUG: updating topics
+2021-09-02 12:02:04 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:04 INFO: topic #0 (0.164): 0.179*"gold" + 0.153*"olympic" + 0.143*"swim" + 0.118*"team" + 0.108*"country" + 0.076*"record" + 0.072*"medal" + 0.047*"sport" + 0.037*"silver" + 0.034*"race"
+2021-09-02 12:02:04 INFO: topic #1 (0.225): 0.201*"win" + 0.173*"horse" + 0.091*"weight" + 0.087*"race" + 0.084*"track" + 0.084*"odds" + 0.057*"sire" + 0.043*"derby" + 0.038*"record" + 0.029*"kentucky"
+2021-09-02 12:02:04 INFO: topic #2 (0.063): 0.178*"statistic" + 0.144*"equation" + 0.144*"model" + 0.144*"probability" + 0.109*"survey" + 0.075*"regression" + 0.075*"estimate" + 0.006*"odds" + 0.006*"weight" + 0.006*"horse"
+2021-09-02 12:02:04 INFO: topic diff=0.217499, rho=0.283981
+2021-09-02 12:02:04 DEBUG: bound: at document #0
+2021-09-02 12:02:04 DEBUG: bound: at document #15
+2021-09-02 12:02:04 INFO: Epoch 10: Perplexity estimate: 11.473868082331103
+2021-09-02 12:02:04 INFO: Epoch 10: Convergence estimate: 1.780900666866957
+2021-09-02 12:02:04 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:04 INFO: Epoch 10: Coherence estimate: -4.235963777959442
+2021-09-02 12:02:04 INFO: PROGRESS: pass 11, at document #15/21
+2021-09-02 12:02:04 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:04 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:05 INFO: optimized alpha [0.13504623, 0.21363814, 0.06571762]
+2021-09-02 12:02:05 DEBUG: updating topics
+2021-09-02 12:02:05 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:05 INFO: topic #0 (0.135): 0.168*"gold" + 0.153*"olympic" + 0.135*"swim" + 0.120*"team" + 0.102*"country" + 0.080*"record" + 0.069*"medal" + 0.053*"sport" + 0.041*"race" + 0.035*"silver"
+2021-09-02 12:02:05 INFO: topic #1 (0.214): 0.175*"horse" + 0.154*"win" + 0.097*"track" + 0.097*"odds" + 0.092*"race" + 0.079*"weight" + 0.066*"sire" + 0.050*"derby" + 0.039*"record" + 0.034*"kentucky"
+2021-09-02 12:02:05 INFO: topic #2 (0.066): 0.186*"statistic" + 0.149*"equation" + 0.149*"model" + 0.149*"probability" + 0.113*"survey" + 0.077*"regression" + 0.077*"estimate" + 0.005*"odds" + 0.005*"weight" + 0.005*"horse"
+2021-09-02 12:02:05 INFO: topic diff=0.209676, rho=0.273179
+2021-09-02 12:02:05 INFO: PROGRESS: pass 11, at document #21/21
+2021-09-02 12:02:05 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:05 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:05 INFO: optimized alpha [0.1635748, 0.22354232, 0.06201487]
+2021-09-02 12:02:05 DEBUG: updating topics
+2021-09-02 12:02:05 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:05 INFO: topic #0 (0.164): 0.178*"gold" + 0.153*"olympic" + 0.143*"swim" + 0.118*"team" + 0.108*"country" + 0.076*"record" + 0.072*"medal" + 0.047*"sport" + 0.037*"silver" + 0.034*"race"
+2021-09-02 12:02:05 INFO: topic #1 (0.224): 0.200*"win" + 0.173*"horse" + 0.091*"weight" + 0.088*"race" + 0.084*"track" + 0.084*"odds" + 0.057*"sire" + 0.043*"derby" + 0.038*"record" + 0.030*"kentucky"
+2021-09-02 12:02:05 INFO: topic #2 (0.062): 0.178*"statistic" + 0.144*"equation" + 0.144*"model" + 0.144*"probability" + 0.109*"survey" + 0.075*"regression" + 0.075*"estimate" + 0.006*"odds" + 0.006*"weight" + 0.006*"horse"
+2021-09-02 12:02:05 INFO: topic diff=0.206915, rho=0.273179
+2021-09-02 12:02:05 DEBUG: bound: at document #0
+2021-09-02 12:02:05 DEBUG: bound: at document #15
+2021-09-02 12:02:05 INFO: Epoch 11: Perplexity estimate: 11.46309264307873
+2021-09-02 12:02:05 INFO: Epoch 11: Convergence estimate: 1.6566734803837821
+2021-09-02 12:02:05 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:05 INFO: Epoch 11: Coherence estimate: -4.235963777959442
+2021-09-02 12:02:05 INFO: PROGRESS: pass 12, at document #15/21
+2021-09-02 12:02:05 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:05 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:05 INFO: optimized alpha [0.13539149, 0.2126589, 0.064495206]
+2021-09-02 12:02:05 DEBUG: updating topics
+2021-09-02 12:02:05 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:05 INFO: topic #0 (0.135): 0.169*"gold" + 0.153*"olympic" + 0.135*"swim" + 0.120*"team" + 0.102*"country" + 0.080*"record" + 0.069*"medal" + 0.053*"sport" + 0.041*"race" + 0.035*"silver"
+2021-09-02 12:02:05 INFO: topic #1 (0.213): 0.175*"horse" + 0.155*"win" + 0.097*"track" + 0.097*"odds" + 0.092*"race" + 0.079*"weight" + 0.065*"sire" + 0.050*"derby" + 0.039*"record" + 0.034*"kentucky"
+2021-09-02 12:02:05 INFO: topic #2 (0.064): 0.185*"statistic" + 0.149*"equation" + 0.149*"model" + 0.149*"probability" + 0.113*"survey" + 0.077*"regression" + 0.077*"estimate" + 0.005*"odds" + 0.005*"weight" + 0.005*"horse"
+2021-09-02 12:02:05 INFO: topic diff=0.201346, rho=0.263523
+2021-09-02 12:02:05 INFO: PROGRESS: pass 12, at document #21/21
+2021-09-02 12:02:05 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:05 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:05 INFO: optimized alpha [0.16297898, 0.22238204, 0.06105888]
+2021-09-02 12:02:05 DEBUG: updating topics
+2021-09-02 12:02:05 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:05 INFO: topic #0 (0.163): 0.178*"gold" + 0.153*"olympic" + 0.143*"swim" + 0.118*"team" + 0.108*"country" + 0.076*"record" + 0.072*"medal" + 0.047*"sport" + 0.037*"silver" + 0.035*"race"
+2021-09-02 12:02:05 INFO: topic #1 (0.222): 0.199*"win" + 0.173*"horse" + 0.091*"weight" + 0.088*"race" + 0.084*"track" + 0.084*"odds" + 0.057*"sire" + 0.043*"derby" + 0.038*"record" + 0.030*"kentucky"
+2021-09-02 12:02:05 INFO: topic #2 (0.061): 0.179*"statistic" + 0.144*"equation" + 0.144*"model" + 0.144*"probability" + 0.110*"survey" + 0.075*"regression" + 0.075*"estimate" + 0.006*"odds" + 0.006*"weight" + 0.006*"horse"
+2021-09-02 12:02:05 INFO: topic diff=0.197932, rho=0.263523
+2021-09-02 12:02:05 DEBUG: bound: at document #0
+2021-09-02 12:02:05 DEBUG: bound: at document #15
+2021-09-02 12:02:05 INFO: Epoch 12: Perplexity estimate: 11.454029200733144
+2021-09-02 12:02:05 INFO: Epoch 12: Convergence estimate: 1.6057678844919128
+2021-09-02 12:02:05 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:05 INFO: Epoch 12: Coherence estimate: -4.235963777959442
+2021-09-02 12:02:05 INFO: PROGRESS: pass 13, at document #15/21
+2021-09-02 12:02:05 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:05 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:05 INFO: optimized alpha [0.13577679, 0.21186113, 0.0634584]
+2021-09-02 12:02:05 DEBUG: updating topics
+2021-09-02 12:02:05 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:05 INFO: topic #0 (0.136): 0.169*"gold" + 0.153*"olympic" + 0.136*"swim" + 0.120*"team" + 0.102*"country" + 0.080*"record" + 0.069*"medal" + 0.053*"sport" + 0.041*"race" + 0.036*"silver"
+2021-09-02 12:02:05 INFO: topic #1 (0.212): 0.175*"horse" + 0.156*"win" + 0.097*"track" + 0.097*"odds" + 0.092*"race" + 0.080*"weight" + 0.065*"sire" + 0.049*"derby" + 0.039*"record" + 0.034*"kentucky"
+2021-09-02 12:02:05 INFO: topic #2 (0.063): 0.185*"statistic" + 0.149*"equation" + 0.149*"model" + 0.149*"probability" + 0.113*"survey" + 0.077*"regression" + 0.077*"estimate" + 0.005*"odds" + 0.005*"weight" + 0.005*"horse"
+2021-09-02 12:02:05 INFO: topic diff=0.193702, rho=0.254824
+2021-09-02 12:02:05 INFO: PROGRESS: pass 13, at document #21/21
+2021-09-02 12:02:05 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:05 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:05 INFO: optimized alpha [0.16252595, 0.22140768, 0.060245693]
+2021-09-02 12:02:05 DEBUG: updating topics
+2021-09-02 12:02:05 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:05 INFO: topic #0 (0.163): 0.178*"gold" + 0.153*"olympic" + 0.143*"swim" + 0.118*"team" + 0.108*"country" + 0.076*"record" + 0.072*"medal" + 0.047*"sport" + 0.037*"silver" + 0.035*"race"
+2021-09-02 12:02:05 INFO: topic #1 (0.221): 0.198*"win" + 0.173*"horse" + 0.090*"weight" + 0.088*"race" + 0.085*"track" + 0.085*"odds" + 0.057*"sire" + 0.044*"derby" + 0.038*"record" + 0.030*"kentucky"
+2021-09-02 12:02:05 INFO: topic #2 (0.060): 0.179*"statistic" + 0.144*"equation" + 0.144*"model" + 0.144*"probability" + 0.110*"survey" + 0.075*"regression" + 0.075*"estimate" + 0.006*"odds" + 0.006*"weight" + 0.006*"horse"
+2021-09-02 12:02:05 INFO: topic diff=0.190137, rho=0.254824
+2021-09-02 12:02:05 DEBUG: bound: at document #0
+2021-09-02 12:02:05 DEBUG: bound: at document #15
+2021-09-02 12:02:05 INFO: Epoch 13: Perplexity estimate: 11.44627461418955
+2021-09-02 12:02:05 INFO: Epoch 13: Convergence estimate: 1.6215826856441096
+2021-09-02 12:02:05 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:05 INFO: Epoch 13: Coherence estimate: -4.235963777959442
+2021-09-02 12:02:05 INFO: PROGRESS: pass 14, at document #15/21
+2021-09-02 12:02:05 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:05 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:05 INFO: optimized alpha [0.13619027, 0.21121053, 0.06257122]
+2021-09-02 12:02:05 DEBUG: updating topics
+2021-09-02 12:02:05 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:05 INFO: topic #0 (0.136): 0.169*"gold" + 0.153*"olympic" + 0.136*"swim" + 0.120*"team" + 0.102*"country" + 0.080*"record" + 0.069*"medal" + 0.053*"sport" + 0.041*"race" + 0.036*"silver"
+2021-09-02 12:02:05 INFO: topic #1 (0.211): 0.174*"horse" + 0.156*"win" + 0.097*"track" + 0.097*"odds" + 0.092*"race" + 0.080*"weight" + 0.065*"sire" + 0.049*"derby" + 0.039*"record" + 0.034*"kentucky"
+2021-09-02 12:02:05 INFO: topic #2 (0.063): 0.185*"statistic" + 0.149*"equation" + 0.149*"model" + 0.149*"probability" + 0.113*"survey" + 0.077*"regression" + 0.077*"estimate" + 0.005*"odds" + 0.005*"weight" + 0.005*"horse"
+2021-09-02 12:02:05 INFO: topic diff=0.186725, rho=0.246932
+2021-09-02 12:02:05 INFO: PROGRESS: pass 14, at document #21/21
+2021-09-02 12:02:05 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:05 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:05 INFO: optimized alpha [0.16218624, 0.22058733, 0.05954879]
+2021-09-02 12:02:05 DEBUG: updating topics
+2021-09-02 12:02:05 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:05 INFO: topic #0 (0.162): 0.178*"gold" + 0.153*"olympic" + 0.143*"swim" + 0.118*"team" + 0.107*"country" + 0.076*"record" + 0.072*"medal" + 0.047*"sport" + 0.037*"silver" + 0.035*"race"
+2021-09-02 12:02:05 INFO: topic #1 (0.221): 0.197*"win" + 0.173*"horse" + 0.090*"weight" + 0.088*"race" + 0.085*"track" + 0.085*"odds" + 0.057*"sire" + 0.044*"derby" + 0.038*"record" + 0.030*"kentucky"
+2021-09-02 12:02:05 INFO: topic #2 (0.060): 0.179*"statistic" + 0.144*"equation" + 0.144*"model" + 0.144*"probability" + 0.110*"survey" + 0.075*"regression" + 0.075*"estimate" + 0.006*"odds" + 0.006*"weight" + 0.006*"horse"
+2021-09-02 12:02:05 INFO: topic diff=0.183247, rho=0.246932
+2021-09-02 12:02:05 DEBUG: bound: at document #0
+2021-09-02 12:02:05 DEBUG: bound: at document #15
+2021-09-02 12:02:05 INFO: Epoch 14: Perplexity estimate: 11.43957334506148
+2021-09-02 12:02:05 INFO: Epoch 14: Convergence estimate: 1.6652175445143724
+2021-09-02 12:02:05 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:05 INFO: Epoch 14: Coherence estimate: -4.235963777959442
+2021-09-02 12:02:05 INFO: PROGRESS: pass 15, at document #15/21
+2021-09-02 12:02:05 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:05 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:05 INFO: optimized alpha [0.1366242, 0.21068701, 0.061806526]
+2021-09-02 12:02:05 DEBUG: updating topics
+2021-09-02 12:02:05 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:05 INFO: topic #0 (0.137): 0.169*"gold" + 0.153*"olympic" + 0.136*"swim" + 0.120*"team" + 0.102*"country" + 0.080*"record" + 0.069*"medal" + 0.053*"sport" + 0.041*"race" + 0.036*"silver"
+2021-09-02 12:02:05 INFO: topic #1 (0.211): 0.174*"horse" + 0.157*"win" + 0.097*"track" + 0.097*"odds" + 0.092*"race" + 0.080*"weight" + 0.065*"sire" + 0.049*"derby" + 0.039*"record" + 0.034*"kentucky"
+2021-09-02 12:02:05 INFO: topic #2 (0.062): 0.185*"statistic" + 0.149*"equation" + 0.149*"model" + 0.149*"probability" + 0.113*"survey" + 0.077*"regression" + 0.077*"estimate" + 0.005*"odds" + 0.005*"weight" + 0.005*"horse"
+2021-09-02 12:02:05 INFO: topic diff=0.180366, rho=0.239732
+2021-09-02 12:02:05 INFO: PROGRESS: pass 15, at document #21/21
+2021-09-02 12:02:05 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:05 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:05 INFO: optimized alpha [0.16193853, 0.21989964, 0.05894787]
+2021-09-02 12:02:05 DEBUG: updating topics
+2021-09-02 12:02:05 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:05 INFO: topic #0 (0.162): 0.178*"gold" + 0.153*"olympic" + 0.143*"swim" + 0.118*"team" + 0.107*"country" + 0.076*"record" + 0.072*"medal" + 0.048*"sport" + 0.037*"silver" + 0.035*"race"
+2021-09-02 12:02:05 INFO: topic #1 (0.220): 0.196*"win" + 0.173*"horse" + 0.090*"weight" + 0.088*"race" + 0.085*"track" + 0.085*"odds" + 0.058*"sire" + 0.044*"derby" + 0.038*"record" + 0.030*"kentucky"
+2021-09-02 12:02:05 INFO: topic #2 (0.059): 0.179*"statistic" + 0.145*"equation" + 0.145*"model" + 0.145*"probability" + 0.110*"survey" + 0.075*"regression" + 0.075*"estimate" + 0.006*"odds" + 0.006*"weight" + 0.006*"horse"
+2021-09-02 12:02:05 INFO: topic diff=0.177076, rho=0.239732
+2021-09-02 12:02:05 DEBUG: bound: at document #0
+2021-09-02 12:02:05 DEBUG: bound: at document #15
+2021-09-02 12:02:05 INFO: Epoch 15: Perplexity estimate: 11.433723385186985
+2021-09-02 12:02:05 INFO: Epoch 15: Convergence estimate: 1.5257471925298005
+2021-09-02 12:02:05 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:05 INFO: Epoch 15: Coherence estimate: -4.235963777959442
+2021-09-02 12:02:05 INFO: PROGRESS: pass 16, at document #15/21
+2021-09-02 12:02:05 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:05 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:05 INFO: optimized alpha [0.13707197, 0.21026798, 0.06114321]
+2021-09-02 12:02:05 DEBUG: updating topics
+2021-09-02 12:02:05 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:05 INFO: topic #0 (0.137): 0.169*"gold" + 0.153*"olympic" + 0.136*"swim" + 0.120*"team" + 0.102*"country" + 0.080*"record" + 0.069*"medal" + 0.053*"sport" + 0.041*"race" + 0.036*"silver"
+2021-09-02 12:02:05 INFO: topic #1 (0.210): 0.174*"horse" + 0.157*"win" + 0.096*"track" + 0.096*"odds" + 0.092*"race" + 0.080*"weight" + 0.065*"sire" + 0.049*"derby" + 0.039*"record" + 0.033*"kentucky"
+2021-09-02 12:02:05 INFO: topic #2 (0.061): 0.185*"statistic" + 0.149*"equation" + 0.149*"model" + 0.149*"probability" + 0.113*"survey" + 0.077*"regression" + 0.077*"estimate" + 0.005*"odds" + 0.005*"weight" + 0.005*"gold"
+2021-09-02 12:02:05 INFO: topic diff=0.174562, rho=0.233126
+2021-09-02 12:02:05 INFO: PROGRESS: pass 16, at document #21/21
+2021-09-02 12:02:05 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:05 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:05 INFO: optimized alpha [0.16176535, 0.21932255, 0.05842697]
+2021-09-02 12:02:05 DEBUG: updating topics
+2021-09-02 12:02:05 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:05 INFO: topic #0 (0.162): 0.178*"gold" + 0.153*"olympic" + 0.142*"swim" + 0.118*"team" + 0.107*"country" + 0.076*"record" + 0.072*"medal" + 0.048*"sport" + 0.037*"silver" + 0.035*"race"
+2021-09-02 12:02:05 INFO: topic #1 (0.219): 0.195*"win" + 0.173*"horse" + 0.090*"weight" + 0.088*"race" + 0.085*"track" + 0.085*"odds" + 0.058*"sire" + 0.044*"derby" + 0.038*"record" + 0.030*"kentucky"
+2021-09-02 12:02:05 INFO: topic #2 (0.058): 0.179*"statistic" + 0.145*"equation" + 0.145*"model" + 0.145*"probability" + 0.110*"survey" + 0.075*"regression" + 0.075*"estimate" + 0.006*"odds" + 0.006*"weight" + 0.006*"gold"
+2021-09-02 12:02:05 INFO: topic diff=0.171492, rho=0.233126
+2021-09-02 12:02:05 DEBUG: bound: at document #0
+2021-09-02 12:02:05 DEBUG: bound: at document #15
+2021-09-02 12:02:05 INFO: Epoch 16: Perplexity estimate: 11.428566844407191
+2021-09-02 12:02:05 INFO: Epoch 16: Convergence estimate: 1.7009320111228332
+2021-09-02 12:02:05 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:05 INFO: Epoch 16: Coherence estimate: -4.235963777959442
+2021-09-02 12:02:05 INFO: PROGRESS: pass 17, at document #15/21
+2021-09-02 12:02:05 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:05 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:05 INFO: optimized alpha [0.13752891, 0.2099369, 0.06056473]
+2021-09-02 12:02:05 DEBUG: updating topics
+2021-09-02 12:02:05 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:05 INFO: topic #0 (0.138): 0.169*"gold" + 0.153*"olympic" + 0.136*"swim" + 0.120*"team" + 0.103*"country" + 0.080*"record" + 0.069*"medal" + 0.053*"sport" + 0.041*"race" + 0.036*"silver"
+2021-09-02 12:02:05 INFO: topic #1 (0.210): 0.174*"horse" + 0.158*"win" + 0.096*"track" + 0.096*"odds" + 0.092*"race" + 0.080*"weight" + 0.065*"sire" + 0.049*"derby" + 0.039*"record" + 0.033*"kentucky"
+2021-09-02 12:02:05 INFO: topic #2 (0.061): 0.185*"statistic" + 0.149*"equation" + 0.149*"model" + 0.149*"probability" + 0.113*"survey" + 0.077*"regression" + 0.077*"estimate" + 0.005*"odds" + 0.005*"weight" + 0.005*"gold"
+2021-09-02 12:02:05 INFO: topic diff=0.169249, rho=0.227038
+2021-09-02 12:02:05 INFO: PROGRESS: pass 17, at document #21/21
+2021-09-02 12:02:05 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:05 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:05 INFO: optimized alpha [0.16165344, 0.21883957, 0.057973437]
+2021-09-02 12:02:05 DEBUG: updating topics
+2021-09-02 12:02:05 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:05 INFO: topic #0 (0.162): 0.178*"gold" + 0.153*"olympic" + 0.142*"swim" + 0.118*"team" + 0.107*"country" + 0.077*"record" + 0.072*"medal" + 0.048*"sport" + 0.037*"silver" + 0.035*"race"
+2021-09-02 12:02:05 INFO: topic #1 (0.219): 0.195*"win" + 0.173*"horse" + 0.090*"weight" + 0.088*"race" + 0.086*"track" + 0.086*"odds" + 0.058*"sire" + 0.044*"derby" + 0.038*"record" + 0.030*"kentucky"
+2021-09-02 12:02:05 INFO: topic #2 (0.058): 0.179*"statistic" + 0.145*"equation" + 0.145*"model" + 0.145*"probability" + 0.110*"survey" + 0.075*"regression" + 0.075*"estimate" + 0.006*"odds" + 0.006*"weight" + 0.006*"horse"
+2021-09-02 12:02:05 INFO: topic diff=0.166403, rho=0.227038
+2021-09-02 12:02:05 DEBUG: bound: at document #0
+2021-09-02 12:02:05 DEBUG: bound: at document #15
+2021-09-02 12:02:05 INFO: Epoch 17: Perplexity estimate: 11.424000215344472
+2021-09-02 12:02:05 INFO: Epoch 17: Convergence estimate: 1.6009441219205913
+2021-09-02 12:02:05 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:05 INFO: Epoch 17: Coherence estimate: -4.235963777959442
+2021-09-02 12:02:05 INFO: PROGRESS: pass 18, at document #15/21
+2021-09-02 12:02:05 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:05 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:05 INFO: optimized alpha [0.13799144, 0.20967977, 0.060057886]
+2021-09-02 12:02:05 DEBUG: updating topics
+2021-09-02 12:02:05 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:05 INFO: topic #0 (0.138): 0.170*"gold" + 0.153*"olympic" + 0.136*"swim" + 0.120*"team" + 0.103*"country" + 0.080*"record" + 0.069*"medal" + 0.053*"sport" + 0.040*"race" + 0.036*"silver"
+2021-09-02 12:02:05 INFO: topic #1 (0.210): 0.174*"horse" + 0.158*"win" + 0.096*"track" + 0.096*"odds" + 0.092*"race" + 0.080*"weight" + 0.065*"sire" + 0.049*"derby" + 0.039*"record" + 0.033*"kentucky"
+2021-09-02 12:02:05 INFO: topic #2 (0.060): 0.185*"statistic" + 0.149*"model" + 0.149*"equation" + 0.149*"probability" + 0.113*"survey" + 0.077*"regression" + 0.077*"estimate" + 0.005*"odds" + 0.005*"weight" + 0.005*"horse"
+2021-09-02 12:02:05 INFO: topic diff=0.164368, rho=0.221404
+2021-09-02 12:02:05 INFO: PROGRESS: pass 18, at document #21/21
+2021-09-02 12:02:05 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:05 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:05 INFO: optimized alpha [0.16159216, 0.21843648, 0.0575771]
+2021-09-02 12:02:05 DEBUG: updating topics
+2021-09-02 12:02:05 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:05 INFO: topic #0 (0.162): 0.177*"gold" + 0.153*"olympic" + 0.142*"swim" + 0.118*"team" + 0.107*"country" + 0.077*"record" + 0.072*"medal" + 0.048*"sport" + 0.037*"silver" + 0.035*"race"
+2021-09-02 12:02:05 INFO: topic #1 (0.218): 0.194*"win" + 0.173*"horse" + 0.089*"weight" + 0.088*"race" + 0.086*"track" + 0.086*"odds" + 0.058*"sire" + 0.044*"derby" + 0.038*"record" + 0.030*"kentucky"
+2021-09-02 12:02:05 INFO: topic #2 (0.058): 0.180*"statistic" + 0.145*"equation" + 0.145*"model" + 0.145*"probability" + 0.110*"survey" + 0.075*"regression" + 0.075*"estimate" + 0.006*"odds" + 0.006*"weight" + 0.006*"gold"
+2021-09-02 12:02:05 INFO: topic diff=0.161733, rho=0.221404
+2021-09-02 12:02:05 DEBUG: bound: at document #0
+2021-09-02 12:02:05 DEBUG: bound: at document #15
+2021-09-02 12:02:05 INFO: Epoch 18: Perplexity estimate: 11.419920905706235
+2021-09-02 12:02:05 INFO: Epoch 18: Convergence estimate: 1.5218768984035185
+2021-09-02 12:02:05 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:05 INFO: Epoch 18: Coherence estimate: -4.235963777959442
+2021-09-02 12:02:05 INFO: PROGRESS: pass 19, at document #15/21
+2021-09-02 12:02:05 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:05 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:05 INFO: optimized alpha [0.1384564, 0.2094836, 0.059612]
+2021-09-02 12:02:05 DEBUG: updating topics
+2021-09-02 12:02:05 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:05 INFO: topic #0 (0.138): 0.170*"gold" + 0.153*"olympic" + 0.136*"swim" + 0.120*"team" + 0.103*"country" + 0.080*"record" + 0.069*"medal" + 0.053*"sport" + 0.040*"race" + 0.036*"silver"
+2021-09-02 12:02:05 INFO: topic #1 (0.209): 0.174*"horse" + 0.158*"win" + 0.096*"track" + 0.096*"odds" + 0.092*"race" + 0.080*"weight" + 0.065*"sire" + 0.049*"derby" + 0.039*"record" + 0.033*"kentucky"
+2021-09-02 12:02:05 INFO: topic #2 (0.060): 0.185*"statistic" + 0.149*"model" + 0.149*"equation" + 0.149*"probability" + 0.113*"survey" + 0.077*"regression" + 0.077*"estimate" + 0.005*"odds" + 0.005*"weight" + 0.005*"race"
+2021-09-02 12:02:05 INFO: topic diff=0.159869, rho=0.216169
+2021-09-02 12:02:05 INFO: PROGRESS: pass 19, at document #21/21
+2021-09-02 12:02:05 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:05 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:05 INFO: optimized alpha [0.16157258, 0.21810053, 0.057229638]
+2021-09-02 12:02:05 DEBUG: updating topics
+2021-09-02 12:02:05 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:05 INFO: topic #0 (0.162): 0.177*"gold" + 0.153*"olympic" + 0.142*"swim" + 0.118*"team" + 0.107*"country" + 0.077*"record" + 0.072*"medal" + 0.048*"sport" + 0.037*"silver" + 0.035*"race"
+2021-09-02 12:02:05 INFO: topic #1 (0.218): 0.193*"win" + 0.173*"horse" + 0.089*"weight" + 0.088*"race" + 0.086*"track" + 0.086*"odds" + 0.058*"sire" + 0.044*"derby" + 0.038*"record" + 0.030*"kentucky"
+2021-09-02 12:02:05 INFO: topic #2 (0.057): 0.180*"statistic" + 0.145*"equation" + 0.145*"model" + 0.145*"probability" + 0.110*"survey" + 0.075*"regression" + 0.075*"estimate" + 0.006*"odds" + 0.006*"weight" + 0.006*"race"
+2021-09-02 12:02:05 INFO: topic diff=0.157428, rho=0.216169
+2021-09-02 12:02:05 DEBUG: bound: at document #0
+2021-09-02 12:02:05 DEBUG: bound: at document #15
+2021-09-02 12:02:05 INFO: Epoch 19: Perplexity estimate: 11.416253952185146
+2021-09-02 12:02:05 INFO: Epoch 19: Convergence estimate: 1.5636035368061771
+2021-09-02 12:02:05 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15)
+2021-09-02 12:02:05 INFO: Epoch 19: Coherence estimate: -4.235963777959442
+2021-09-02 12:02:05 DEBUG: starting a new internal lifecycle event log for LdaModel
+2021-09-02 12:02:05 INFO: LdaModel lifecycle event {'msg': 'trained LdaModel(num_terms=29, num_topics=3, decay=0.5, chunksize=15) in 0.34s', 'datetime': '2021-09-02T12:02:05.177511', 'gensim': '4.0.1', 'python': '3.7.10 (default, Feb 26 2021, 13:06:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'created'}
+2021-09-02 12:02:05 INFO: -------Closing Log-------

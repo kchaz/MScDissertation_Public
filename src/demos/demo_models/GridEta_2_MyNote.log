@@ -1,0 +1,1501 @@
+2021-09-02 12:02:07 INFO: START: Optimizing 2-Topic Model
+2021-09-02 12:02:07 INFO: START: Training Model 0, eta=0.001000, num_topics=2
+2021-09-02 12:02:07 INFO: using autotuned alpha, starting with [0.5, 0.5]
+2021-09-02 12:02:07 INFO: using serial LDA version on this node
+2021-09-02 12:02:07 INFO: running online (multi-pass) LDA training, 2 topics, 20 passes over the supplied corpus of 21 documents, updating model once every 15 documents, evaluating perplexity every 0 documents, iterating 100x with a convergence threshold of 0.001000
+2021-09-02 12:02:07 INFO: PROGRESS: pass 0, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 12/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.61583835, 0.7118132]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.616): 0.125*"statistic" + 0.108*"horse" + 0.088*"model" + 0.087*"equation" + 0.071*"race" + 0.063*"survey" + 0.060*"regression" + 0.055*"probability" + 0.046*"record" + 0.035*"derby"
+2021-09-02 12:02:07 INFO: topic #1 (0.712): 0.120*"horse" + 0.116*"track" + 0.105*"odds" + 0.081*"race" + 0.080*"win" + 0.073*"sire" + 0.051*"weight" + 0.049*"probability" + 0.041*"derby" + 0.038*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=174.062546, rho=1.000000
+2021-09-02 12:02:07 INFO: PROGRESS: pass 0, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.7635638, 0.74116683]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.764): 0.257*"olympic" + 0.195*"team" + 0.084*"record" + 0.081*"horse" + 0.071*"sport" + 0.057*"race" + 0.046*"weight" + 0.039*"statistic" + 0.027*"model" + 0.027*"equation"
+2021-09-02 12:02:07 INFO: topic #1 (0.741): 0.283*"win" + 0.093*"horse" + 0.089*"record" + 0.084*"race" + 0.071*"track" + 0.065*"odds" + 0.059*"weight" + 0.045*"sire" + 0.030*"probability" + 0.025*"derby"
+2021-09-02 12:02:07 INFO: topic diff=3.255943, rho=0.707107
+2021-09-02 12:02:07 INFO: PROGRESS: pass 1, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.5350259, 0.6906729]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.535): 0.147*"olympic" + 0.120*"statistic" + 0.116*"team" + 0.091*"equation" + 0.083*"model" + 0.063*"record" + 0.057*"survey" + 0.056*"horse" + 0.056*"sport" + 0.052*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.691): 0.138*"horse" + 0.130*"win" + 0.102*"track" + 0.100*"odds" + 0.089*"race" + 0.067*"sire" + 0.053*"weight" + 0.051*"record" + 0.047*"derby" + 0.040*"probability"
+2021-09-02 12:02:07 INFO: topic diff=4.465000, rho=0.542326
+2021-09-02 12:02:07 INFO: PROGRESS: pass 1, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.6314435, 0.71963936]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.631): 0.272*"olympic" + 0.206*"team" + 0.083*"record" + 0.076*"sport" + 0.055*"statistic" + 0.054*"weight" + 0.044*"race" + 0.043*"horse" + 0.042*"equation" + 0.038*"model"
+2021-09-02 12:02:07 INFO: topic #1 (0.720): 0.253*"win" + 0.133*"horse" + 0.095*"race" + 0.086*"record" + 0.072*"track" + 0.071*"odds" + 0.049*"weight" + 0.048*"sire" + 0.034*"derby" + 0.028*"probability"
+2021-09-02 12:02:07 INFO: topic diff=8.303280, rho=0.542326
+2021-09-02 12:02:07 INFO: PROGRESS: pass 2, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.46493515, 0.63114536]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.465): 0.164*"olympic" + 0.129*"team" + 0.121*"statistic" + 0.096*"equation" + 0.093*"model" + 0.065*"survey" + 0.062*"record" + 0.059*"sport" + 0.051*"probability" + 0.049*"regression"
+2021-09-02 12:02:07 INFO: topic #1 (0.631): 0.156*"horse" + 0.137*"win" + 0.099*"track" + 0.099*"odds" + 0.097*"race" + 0.066*"sire" + 0.055*"record" + 0.049*"derby" + 0.049*"weight" + 0.033*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=11.967066, rho=0.476731
+2021-09-02 12:02:07 INFO: PROGRESS: pass 2, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.5343878, 0.65438837]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.534): 0.271*"olympic" + 0.206*"team" + 0.080*"record" + 0.077*"sport" + 0.064*"statistic" + 0.061*"weight" + 0.050*"equation" + 0.049*"model" + 0.034*"survey" + 0.033*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.654): 0.235*"win" + 0.157*"horse" + 0.105*"race" + 0.084*"record" + 0.074*"track" + 0.074*"odds" + 0.049*"sire" + 0.040*"weight" + 0.036*"derby" + 0.025*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=18.044456, rho=0.476731
+2021-09-02 12:02:07 INFO: PROGRESS: pass 3, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.42453995, 0.580694]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.425): 0.170*"olympic" + 0.134*"team" + 0.119*"statistic" + 0.095*"equation" + 0.094*"model" + 0.069*"survey" + 0.062*"probability" + 0.061*"sport" + 0.060*"record" + 0.048*"regression"
+2021-09-02 12:02:07 INFO: topic #1 (0.581): 0.166*"horse" + 0.141*"win" + 0.105*"race" + 0.099*"track" + 0.098*"odds" + 0.066*"sire" + 0.058*"record" + 0.049*"derby" + 0.043*"weight" + 0.033*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=21.385544, rho=0.430331
+2021-09-02 12:02:07 INFO: PROGRESS: pass 3, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.48002163, 0.60096854]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.480): 0.266*"olympic" + 0.203*"team" + 0.077*"record" + 0.077*"sport" + 0.069*"statistic" + 0.066*"weight" + 0.055*"equation" + 0.054*"model" + 0.040*"survey" + 0.036*"probability"
+2021-09-02 12:02:07 INFO: topic #1 (0.601): 0.225*"win" + 0.167*"horse" + 0.114*"race" + 0.083*"record" + 0.076*"track" + 0.076*"odds" + 0.051*"sire" + 0.038*"derby" + 0.035*"weight" + 0.025*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=25.976315, rho=0.430331
+2021-09-02 12:02:07 INFO: PROGRESS: pass 4, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.39882463, 0.54263294]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.399): 0.174*"olympic" + 0.136*"team" + 0.117*"statistic" + 0.094*"equation" + 0.093*"model" + 0.075*"probability" + 0.069*"survey" + 0.061*"sport" + 0.058*"record" + 0.052*"weight"
+2021-09-02 12:02:07 INFO: topic #1 (0.543): 0.171*"horse" + 0.144*"win" + 0.112*"race" + 0.098*"track" + 0.098*"odds" + 0.065*"sire" + 0.061*"record" + 0.049*"derby" + 0.039*"weight" + 0.033*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=26.357889, rho=0.395285
+2021-09-02 12:02:07 INFO: PROGRESS: pass 4, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.4463323, 0.5621731]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.446): 0.261*"olympic" + 0.199*"team" + 0.076*"sport" + 0.074*"record" + 0.072*"statistic" + 0.069*"weight" + 0.057*"equation" + 0.057*"model" + 0.046*"probability" + 0.043*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.562): 0.219*"win" + 0.170*"horse" + 0.121*"race" + 0.083*"record" + 0.078*"track" + 0.078*"odds" + 0.052*"sire" + 0.039*"derby" + 0.032*"weight" + 0.026*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=28.115444, rho=0.395285
+2021-09-02 12:02:07 INFO: PROGRESS: pass 5, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.38110393, 0.514996]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.381): 0.177*"olympic" + 0.138*"team" + 0.115*"statistic" + 0.092*"equation" + 0.092*"model" + 0.084*"probability" + 0.069*"survey" + 0.061*"sport" + 0.057*"record" + 0.056*"weight"
+2021-09-02 12:02:07 INFO: topic #1 (0.515): 0.173*"horse" + 0.147*"win" + 0.118*"race" + 0.098*"track" + 0.098*"odds" + 0.065*"sire" + 0.063*"record" + 0.049*"derby" + 0.036*"weight" + 0.033*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=26.490259, rho=0.367607
+2021-09-02 12:02:07 INFO: PROGRESS: pass 5, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.4232923, 0.5340393]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.423): 0.257*"olympic" + 0.196*"team" + 0.075*"sport" + 0.074*"statistic" + 0.072*"record" + 0.071*"weight" + 0.059*"equation" + 0.059*"model" + 0.054*"probability" + 0.044*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.534): 0.214*"win" + 0.172*"horse" + 0.127*"race" + 0.083*"record" + 0.079*"track" + 0.079*"odds" + 0.053*"sire" + 0.040*"derby" + 0.030*"weight" + 0.026*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=26.324463, rho=0.367607
+2021-09-02 12:02:07 INFO: PROGRESS: pass 6, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.36816177, 0.4950932]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.368): 0.179*"olympic" + 0.140*"team" + 0.114*"statistic" + 0.091*"equation" + 0.091*"model" + 0.088*"probability" + 0.068*"survey" + 0.062*"sport" + 0.059*"weight" + 0.056*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.495): 0.173*"horse" + 0.148*"win" + 0.122*"race" + 0.097*"track" + 0.097*"odds" + 0.065*"sire" + 0.064*"record" + 0.049*"derby" + 0.035*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=23.554289, rho=0.345033
+2021-09-02 12:02:07 INFO: PROGRESS: pass 6, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.4065632, 0.51340914]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.407): 0.253*"olympic" + 0.194*"team" + 0.076*"statistic" + 0.075*"sport" + 0.072*"weight" + 0.071*"record" + 0.061*"equation" + 0.061*"model" + 0.058*"probability" + 0.045*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.513): 0.210*"win" + 0.172*"horse" + 0.130*"race" + 0.083*"record" + 0.080*"track" + 0.080*"odds" + 0.053*"sire" + 0.040*"derby" + 0.029*"weight" + 0.027*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=21.925980, rho=0.345033
+2021-09-02 12:02:07 INFO: PROGRESS: pass 7, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.35829547, 0.4801276]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.358): 0.181*"olympic" + 0.141*"team" + 0.113*"statistic" + 0.091*"equation" + 0.091*"model" + 0.089*"probability" + 0.068*"survey" + 0.062*"sport" + 0.060*"weight" + 0.056*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.480): 0.174*"horse" + 0.149*"win" + 0.124*"race" + 0.097*"track" + 0.097*"odds" + 0.065*"record" + 0.065*"sire" + 0.048*"derby" + 0.034*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=18.639769, rho=0.326164
+2021-09-02 12:02:07 INFO: PROGRESS: pass 7, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.39381418, 0.49770457]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.394): 0.251*"olympic" + 0.192*"team" + 0.077*"statistic" + 0.074*"sport" + 0.073*"weight" + 0.070*"record" + 0.062*"equation" + 0.062*"model" + 0.061*"probability" + 0.046*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.498): 0.208*"win" + 0.172*"horse" + 0.131*"race" + 0.082*"record" + 0.081*"track" + 0.081*"odds" + 0.054*"sire" + 0.040*"derby" + 0.028*"weight" + 0.027*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=16.450563, rho=0.326164
+2021-09-02 12:02:07 INFO: PROGRESS: pass 8, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.35047066, 0.4684317]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.350): 0.183*"olympic" + 0.143*"team" + 0.112*"statistic" + 0.090*"equation" + 0.090*"model" + 0.089*"probability" + 0.067*"survey" + 0.063*"sport" + 0.061*"weight" + 0.056*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.468): 0.174*"horse" + 0.151*"win" + 0.125*"race" + 0.097*"track" + 0.097*"odds" + 0.066*"record" + 0.064*"sire" + 0.048*"derby" + 0.033*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=13.574358, rho=0.310087
+2021-09-02 12:02:07 INFO: PROGRESS: pass 8, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.3836502, 0.48532006]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.384): 0.248*"olympic" + 0.190*"team" + 0.078*"statistic" + 0.074*"sport" + 0.072*"weight" + 0.069*"record" + 0.063*"equation" + 0.063*"model" + 0.062*"probability" + 0.047*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.485): 0.205*"win" + 0.172*"horse" + 0.131*"race" + 0.082*"record" + 0.081*"track" + 0.081*"odds" + 0.054*"sire" + 0.041*"derby" + 0.028*"weight" + 0.027*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=11.692552, rho=0.310087
+2021-09-02 12:02:07 INFO: PROGRESS: pass 9, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.34403703, 0.45902503]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.344): 0.184*"olympic" + 0.144*"team" + 0.112*"statistic" + 0.089*"equation" + 0.089*"model" + 0.089*"probability" + 0.067*"survey" + 0.063*"sport" + 0.061*"weight" + 0.056*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.459): 0.174*"horse" + 0.152*"win" + 0.125*"race" + 0.096*"track" + 0.096*"odds" + 0.066*"record" + 0.064*"sire" + 0.048*"derby" + 0.033*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=9.654173, rho=0.296174
+2021-09-02 12:02:07 INFO: PROGRESS: pass 9, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.3752968, 0.4752902]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.375): 0.247*"olympic" + 0.189*"team" + 0.079*"statistic" + 0.074*"sport" + 0.072*"weight" + 0.068*"record" + 0.064*"equation" + 0.064*"model" + 0.063*"probability" + 0.048*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.475): 0.203*"win" + 0.172*"horse" + 0.131*"race" + 0.082*"track" + 0.082*"odds" + 0.081*"record" + 0.055*"sire" + 0.041*"derby" + 0.029*"weight" + 0.027*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=8.360357, rho=0.296174
+2021-09-02 12:02:07 INFO: PROGRESS: pass 10, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.33864284, 0.45130044]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.339): 0.186*"olympic" + 0.145*"team" + 0.111*"statistic" + 0.089*"equation" + 0.089*"model" + 0.089*"probability" + 0.067*"survey" + 0.063*"sport" + 0.061*"weight" + 0.056*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.451): 0.174*"horse" + 0.152*"win" + 0.125*"race" + 0.096*"track" + 0.096*"odds" + 0.067*"record" + 0.064*"sire" + 0.048*"derby" + 0.033*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=7.091839, rho=0.283981
+2021-09-02 12:02:07 INFO: PROGRESS: pass 10, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.36825487, 0.4669815]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.368): 0.245*"olympic" + 0.188*"team" + 0.080*"statistic" + 0.073*"sport" + 0.072*"weight" + 0.068*"record" + 0.064*"equation" + 0.064*"model" + 0.064*"probability" + 0.048*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.467): 0.202*"win" + 0.172*"horse" + 0.131*"race" + 0.082*"track" + 0.082*"odds" + 0.081*"record" + 0.055*"sire" + 0.041*"derby" + 0.029*"weight" + 0.027*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=6.309724, rho=0.283981
+2021-09-02 12:02:07 INFO: PROGRESS: pass 11, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.33403733, 0.444837]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.334): 0.187*"olympic" + 0.146*"team" + 0.110*"statistic" + 0.088*"equation" + 0.088*"model" + 0.088*"probability" + 0.066*"survey" + 0.063*"sport" + 0.061*"weight" + 0.056*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.445): 0.174*"horse" + 0.153*"win" + 0.126*"race" + 0.096*"track" + 0.096*"odds" + 0.067*"record" + 0.064*"sire" + 0.048*"derby" + 0.033*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=5.575805, rho=0.273179
+2021-09-02 12:02:07 INFO: PROGRESS: pass 11, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.36223605, 0.45998135]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.362): 0.244*"olympic" + 0.187*"team" + 0.081*"statistic" + 0.073*"sport" + 0.071*"weight" + 0.068*"record" + 0.065*"equation" + 0.065*"model" + 0.065*"probability" + 0.049*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.460): 0.200*"win" + 0.172*"horse" + 0.131*"race" + 0.083*"track" + 0.083*"odds" + 0.080*"record" + 0.055*"sire" + 0.041*"derby" + 0.029*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=5.127356, rho=0.273179
+2021-09-02 12:02:07 INFO: PROGRESS: pass 12, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.33008513, 0.4393615]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.330): 0.188*"olympic" + 0.146*"team" + 0.110*"statistic" + 0.088*"equation" + 0.088*"model" + 0.088*"probability" + 0.066*"survey" + 0.063*"sport" + 0.061*"weight" + 0.056*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.439): 0.173*"horse" + 0.154*"win" + 0.126*"race" + 0.096*"track" + 0.096*"odds" + 0.067*"record" + 0.064*"sire" + 0.048*"derby" + 0.033*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=4.691090, rho=0.263523
+2021-09-02 12:02:07 INFO: PROGRESS: pass 12, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.35706204, 0.45402318]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.357): 0.242*"olympic" + 0.186*"team" + 0.082*"statistic" + 0.073*"sport" + 0.071*"weight" + 0.067*"record" + 0.065*"equation" + 0.065*"model" + 0.065*"probability" + 0.049*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.454): 0.199*"win" + 0.172*"horse" + 0.131*"race" + 0.083*"track" + 0.083*"odds" + 0.080*"record" + 0.055*"sire" + 0.042*"derby" + 0.029*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=4.385408, rho=0.263523
+2021-09-02 12:02:07 INFO: PROGRESS: pass 13, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.32667202, 0.43467826]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.327): 0.189*"olympic" + 0.147*"team" + 0.110*"statistic" + 0.088*"equation" + 0.088*"model" + 0.088*"probability" + 0.066*"survey" + 0.064*"sport" + 0.061*"weight" + 0.057*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.435): 0.173*"horse" + 0.154*"win" + 0.126*"race" + 0.095*"track" + 0.095*"odds" + 0.067*"record" + 0.064*"sire" + 0.048*"derby" + 0.034*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=4.040086, rho=0.254824
+2021-09-02 12:02:07 INFO: PROGRESS: pass 13, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.3525565, 0.4488842]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.353): 0.241*"olympic" + 0.185*"team" + 0.082*"statistic" + 0.073*"sport" + 0.071*"weight" + 0.067*"record" + 0.066*"equation" + 0.066*"model" + 0.066*"probability" + 0.049*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.449): 0.198*"win" + 0.172*"horse" + 0.131*"race" + 0.083*"track" + 0.083*"odds" + 0.080*"record" + 0.056*"sire" + 0.042*"derby" + 0.030*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=3.720280, rho=0.254824
+2021-09-02 12:02:07 INFO: PROGRESS: pass 14, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.32370222, 0.43062973]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.324): 0.190*"olympic" + 0.148*"team" + 0.109*"statistic" + 0.087*"equation" + 0.087*"model" + 0.087*"probability" + 0.066*"survey" + 0.064*"sport" + 0.061*"weight" + 0.057*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.431): 0.173*"horse" + 0.155*"win" + 0.126*"race" + 0.095*"track" + 0.095*"odds" + 0.067*"record" + 0.064*"sire" + 0.048*"derby" + 0.034*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=3.347378, rho=0.246932
+2021-09-02 12:02:07 INFO: PROGRESS: pass 14, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.34861967, 0.4444224]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.349): 0.240*"olympic" + 0.184*"team" + 0.083*"statistic" + 0.073*"sport" + 0.070*"weight" + 0.067*"record" + 0.066*"equation" + 0.066*"model" + 0.066*"probability" + 0.050*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.444): 0.197*"win" + 0.172*"horse" + 0.131*"race" + 0.084*"track" + 0.084*"odds" + 0.079*"record" + 0.056*"sire" + 0.042*"derby" + 0.030*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=2.970713, rho=0.246932
+2021-09-02 12:02:07 INFO: PROGRESS: pass 15, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.32111204, 0.42711067]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.321): 0.190*"olympic" + 0.148*"team" + 0.109*"statistic" + 0.087*"equation" + 0.087*"model" + 0.087*"probability" + 0.065*"survey" + 0.064*"sport" + 0.061*"weight" + 0.057*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.427): 0.173*"horse" + 0.155*"win" + 0.126*"race" + 0.095*"track" + 0.095*"odds" + 0.067*"record" + 0.063*"sire" + 0.048*"derby" + 0.034*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=2.577716, rho=0.239732
+2021-09-02 12:02:07 INFO: PROGRESS: pass 15, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.34516314, 0.44051963]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.345): 0.239*"olympic" + 0.184*"team" + 0.083*"statistic" + 0.072*"sport" + 0.070*"weight" + 0.067*"record" + 0.067*"equation" + 0.067*"model" + 0.067*"probability" + 0.050*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.441): 0.196*"win" + 0.172*"horse" + 0.131*"race" + 0.084*"track" + 0.084*"odds" + 0.079*"record" + 0.056*"sire" + 0.042*"derby" + 0.030*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=2.196951, rho=0.239732
+2021-09-02 12:02:07 INFO: PROGRESS: pass 16, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.31885278, 0.42403537]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.319): 0.191*"olympic" + 0.149*"team" + 0.109*"statistic" + 0.087*"equation" + 0.087*"model" + 0.087*"probability" + 0.065*"survey" + 0.064*"sport" + 0.061*"weight" + 0.057*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.424): 0.173*"horse" + 0.156*"win" + 0.126*"race" + 0.095*"track" + 0.095*"odds" + 0.068*"record" + 0.063*"sire" + 0.047*"derby" + 0.034*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=1.851398, rho=0.233126
+2021-09-02 12:02:07 INFO: PROGRESS: pass 16, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.3421189, 0.43708682]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.342): 0.239*"olympic" + 0.183*"team" + 0.084*"statistic" + 0.072*"sport" + 0.070*"weight" + 0.067*"equation" + 0.067*"model" + 0.067*"probability" + 0.067*"record" + 0.050*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.437): 0.195*"win" + 0.172*"horse" + 0.130*"race" + 0.084*"track" + 0.084*"odds" + 0.079*"record" + 0.056*"sire" + 0.042*"derby" + 0.030*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=1.527917, rho=0.233126
+2021-09-02 12:02:07 INFO: PROGRESS: pass 17, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.31687614, 0.42133397]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.317): 0.192*"olympic" + 0.149*"team" + 0.108*"statistic" + 0.087*"equation" + 0.087*"model" + 0.087*"probability" + 0.065*"survey" + 0.064*"sport" + 0.061*"weight" + 0.057*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.421): 0.173*"horse" + 0.156*"win" + 0.126*"race" + 0.095*"track" + 0.095*"odds" + 0.068*"record" + 0.063*"sire" + 0.047*"derby" + 0.034*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=1.270919, rho=0.227038
+2021-09-02 12:02:07 INFO: PROGRESS: pass 17, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.33943522, 0.43405977]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.339): 0.238*"olympic" + 0.183*"team" + 0.084*"statistic" + 0.072*"sport" + 0.069*"weight" + 0.067*"equation" + 0.067*"model" + 0.067*"probability" + 0.067*"record" + 0.051*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.434): 0.194*"win" + 0.172*"horse" + 0.130*"race" + 0.084*"track" + 0.084*"odds" + 0.079*"record" + 0.056*"sire" + 0.042*"derby" + 0.030*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=1.027118, rho=0.227038
+2021-09-02 12:02:07 INFO: PROGRESS: pass 18, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.31513953, 0.41895208]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.315): 0.192*"olympic" + 0.150*"team" + 0.108*"statistic" + 0.086*"equation" + 0.086*"model" + 0.086*"probability" + 0.065*"survey" + 0.064*"sport" + 0.061*"weight" + 0.057*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.419): 0.173*"horse" + 0.157*"win" + 0.126*"race" + 0.095*"track" + 0.095*"odds" + 0.068*"record" + 0.063*"sire" + 0.047*"derby" + 0.034*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.858221, rho=0.221404
+2021-09-02 12:02:07 INFO: PROGRESS: pass 18, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.33705273, 0.43137676]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.337): 0.237*"olympic" + 0.182*"team" + 0.085*"statistic" + 0.072*"sport" + 0.069*"weight" + 0.068*"equation" + 0.068*"model" + 0.068*"probability" + 0.066*"record" + 0.051*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.431): 0.194*"win" + 0.172*"horse" + 0.130*"race" + 0.084*"track" + 0.084*"odds" + 0.078*"record" + 0.056*"sire" + 0.042*"derby" + 0.031*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.686041, rho=0.221404
+2021-09-02 12:02:07 INFO: PROGRESS: pass 19, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.3136119, 0.41684684]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.314): 0.193*"olympic" + 0.150*"team" + 0.108*"statistic" + 0.086*"equation" + 0.086*"model" + 0.086*"probability" + 0.065*"survey" + 0.064*"sport" + 0.061*"weight" + 0.058*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.417): 0.173*"horse" + 0.157*"win" + 0.126*"race" + 0.095*"track" + 0.095*"odds" + 0.068*"record" + 0.063*"sire" + 0.047*"derby" + 0.034*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.584906, rho=0.216169
+2021-09-02 12:02:07 INFO: PROGRESS: pass 19, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.33492672, 0.42898276]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.335): 0.236*"olympic" + 0.182*"team" + 0.085*"statistic" + 0.072*"sport" + 0.069*"weight" + 0.068*"equation" + 0.068*"model" + 0.068*"probability" + 0.066*"record" + 0.051*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.429): 0.193*"win" + 0.172*"horse" + 0.130*"race" + 0.085*"track" + 0.085*"odds" + 0.078*"record" + 0.056*"sire" + 0.042*"derby" + 0.031*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.467911, rho=0.216169
+2021-09-02 12:02:07 DEBUG: starting a new internal lifecycle event log for LdaModel
+2021-09-02 12:02:07 INFO: LdaModel lifecycle event {'msg': 'trained LdaModel(num_terms=29, num_topics=2, decay=0.5, chunksize=15) in 0.09s', 'datetime': '2021-09-02T12:02:07.692578', 'gensim': '4.0.1', 'python': '3.7.10 (default, Feb 26 2021, 13:06:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'created'}
+2021-09-02 12:02:07 INFO: END: Training Model 0, eta=0.001000, num_topics=2
+2021-09-02 12:02:07 INFO: --------------------------------------
+2021-09-02 12:02:07 INFO: --------------------------------------
+2021-09-02 12:02:07 INFO: START: Training Model 1, eta=0.010000, num_topics=2
+2021-09-02 12:02:07 INFO: using autotuned alpha, starting with [0.5, 0.5]
+2021-09-02 12:02:07 INFO: using serial LDA version on this node
+2021-09-02 12:02:07 INFO: running online (multi-pass) LDA training, 2 topics, 20 passes over the supplied corpus of 21 documents, updating model once every 15 documents, evaluating perplexity every 0 documents, iterating 100x with a convergence threshold of 0.001000
+2021-09-02 12:02:07 INFO: PROGRESS: pass 0, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 12/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.61583835, 0.7118132]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.616): 0.125*"statistic" + 0.107*"horse" + 0.087*"model" + 0.086*"equation" + 0.070*"race" + 0.063*"survey" + 0.060*"regression" + 0.055*"probability" + 0.046*"record" + 0.035*"derby"
+2021-09-02 12:02:07 INFO: topic #1 (0.712): 0.120*"horse" + 0.115*"track" + 0.104*"odds" + 0.081*"race" + 0.080*"win" + 0.073*"sire" + 0.050*"weight" + 0.049*"probability" + 0.041*"derby" + 0.038*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=18.819435, rho=1.000000
+2021-09-02 12:02:07 INFO: PROGRESS: pass 0, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.7632982, 0.74043125]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.763): 0.255*"olympic" + 0.194*"team" + 0.084*"record" + 0.080*"horse" + 0.071*"sport" + 0.057*"race" + 0.046*"weight" + 0.039*"statistic" + 0.027*"model" + 0.027*"equation"
+2021-09-02 12:02:07 INFO: topic #1 (0.740): 0.280*"win" + 0.093*"horse" + 0.089*"record" + 0.083*"race" + 0.071*"track" + 0.064*"odds" + 0.059*"weight" + 0.045*"sire" + 0.030*"probability" + 0.025*"derby"
+2021-09-02 12:02:07 INFO: topic diff=2.681036, rho=0.707107
+2021-09-02 12:02:07 INFO: PROGRESS: pass 1, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.5358162, 0.6910694]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.536): 0.146*"olympic" + 0.119*"statistic" + 0.116*"team" + 0.091*"equation" + 0.083*"model" + 0.063*"record" + 0.057*"survey" + 0.056*"horse" + 0.055*"sport" + 0.052*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.691): 0.138*"horse" + 0.129*"win" + 0.102*"track" + 0.099*"odds" + 0.089*"race" + 0.067*"sire" + 0.053*"weight" + 0.051*"record" + 0.047*"derby" + 0.039*"probability"
+2021-09-02 12:02:07 INFO: topic diff=2.842256, rho=0.542326
+2021-09-02 12:02:07 INFO: PROGRESS: pass 1, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.6320213, 0.71915084]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.632): 0.270*"olympic" + 0.205*"team" + 0.083*"record" + 0.076*"sport" + 0.055*"statistic" + 0.054*"weight" + 0.044*"race" + 0.043*"horse" + 0.042*"equation" + 0.038*"model"
+2021-09-02 12:02:07 INFO: topic #1 (0.719): 0.252*"win" + 0.133*"horse" + 0.095*"race" + 0.086*"record" + 0.072*"track" + 0.071*"odds" + 0.048*"weight" + 0.048*"sire" + 0.034*"derby" + 0.028*"probability"
+2021-09-02 12:02:07 INFO: topic diff=3.685016, rho=0.542326
+2021-09-02 12:02:07 INFO: PROGRESS: pass 2, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.46501255, 0.63082397]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.465): 0.163*"olympic" + 0.128*"team" + 0.121*"statistic" + 0.095*"equation" + 0.092*"model" + 0.065*"survey" + 0.062*"record" + 0.059*"sport" + 0.051*"probability" + 0.049*"regression"
+2021-09-02 12:02:07 INFO: topic #1 (0.631): 0.156*"horse" + 0.136*"win" + 0.099*"track" + 0.099*"odds" + 0.097*"race" + 0.066*"sire" + 0.055*"record" + 0.049*"derby" + 0.048*"weight" + 0.033*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=3.723082, rho=0.476731
+2021-09-02 12:02:07 INFO: PROGRESS: pass 2, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.53439087, 0.6537168]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.534): 0.269*"olympic" + 0.205*"team" + 0.080*"record" + 0.077*"sport" + 0.063*"statistic" + 0.061*"weight" + 0.050*"equation" + 0.049*"model" + 0.034*"survey" + 0.033*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.654): 0.234*"win" + 0.156*"horse" + 0.105*"race" + 0.084*"record" + 0.074*"track" + 0.074*"odds" + 0.049*"sire" + 0.040*"weight" + 0.036*"derby" + 0.025*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=3.885029, rho=0.476731
+2021-09-02 12:02:07 INFO: PROGRESS: pass 3, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.42453223, 0.58002824]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.425): 0.169*"olympic" + 0.133*"team" + 0.119*"statistic" + 0.095*"equation" + 0.094*"model" + 0.069*"survey" + 0.062*"probability" + 0.060*"sport" + 0.060*"record" + 0.048*"regression"
+2021-09-02 12:02:07 INFO: topic #1 (0.580): 0.166*"horse" + 0.141*"win" + 0.104*"race" + 0.098*"track" + 0.098*"odds" + 0.066*"sire" + 0.058*"record" + 0.049*"derby" + 0.043*"weight" + 0.033*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=3.564003, rho=0.430331
+2021-09-02 12:02:07 INFO: PROGRESS: pass 3, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.48000544, 0.60024947]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.480): 0.264*"olympic" + 0.201*"team" + 0.077*"record" + 0.076*"sport" + 0.068*"statistic" + 0.066*"weight" + 0.055*"equation" + 0.054*"model" + 0.040*"survey" + 0.036*"probability"
+2021-09-02 12:02:07 INFO: topic #1 (0.600): 0.224*"win" + 0.166*"horse" + 0.113*"race" + 0.083*"record" + 0.076*"track" + 0.076*"odds" + 0.051*"sire" + 0.038*"derby" + 0.035*"weight" + 0.025*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=3.352267, rho=0.430331
+2021-09-02 12:02:07 INFO: PROGRESS: pass 4, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.39874503, 0.54195607]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.399): 0.173*"olympic" + 0.136*"team" + 0.116*"statistic" + 0.093*"equation" + 0.093*"model" + 0.074*"probability" + 0.069*"survey" + 0.061*"sport" + 0.058*"record" + 0.052*"weight"
+2021-09-02 12:02:07 INFO: topic #1 (0.542): 0.170*"horse" + 0.144*"win" + 0.111*"race" + 0.098*"track" + 0.098*"odds" + 0.065*"sire" + 0.061*"record" + 0.049*"derby" + 0.039*"weight" + 0.033*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=2.877659, rho=0.395285
+2021-09-02 12:02:07 INFO: PROGRESS: pass 4, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.4462562, 0.5615103]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.446): 0.259*"olympic" + 0.198*"team" + 0.076*"sport" + 0.074*"record" + 0.071*"statistic" + 0.069*"weight" + 0.057*"equation" + 0.057*"model" + 0.046*"probability" + 0.042*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.562): 0.218*"win" + 0.169*"horse" + 0.120*"race" + 0.083*"record" + 0.078*"track" + 0.077*"odds" + 0.052*"sire" + 0.039*"derby" + 0.032*"weight" + 0.026*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=2.476409, rho=0.395285
+2021-09-02 12:02:07 INFO: PROGRESS: pass 5, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.38096762, 0.51441693]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.381): 0.176*"olympic" + 0.137*"team" + 0.115*"statistic" + 0.092*"equation" + 0.092*"model" + 0.083*"probability" + 0.069*"survey" + 0.061*"sport" + 0.057*"record" + 0.056*"weight"
+2021-09-02 12:02:07 INFO: topic #1 (0.514): 0.172*"horse" + 0.146*"win" + 0.117*"race" + 0.098*"track" + 0.097*"odds" + 0.065*"sire" + 0.063*"record" + 0.049*"derby" + 0.036*"weight" + 0.033*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=2.042197, rho=0.367607
+2021-09-02 12:02:07 INFO: PROGRESS: pass 5, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.42315686, 0.5334866]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.423): 0.255*"olympic" + 0.195*"team" + 0.075*"sport" + 0.074*"statistic" + 0.072*"record" + 0.071*"weight" + 0.059*"equation" + 0.059*"model" + 0.053*"probability" + 0.044*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.533): 0.213*"win" + 0.171*"horse" + 0.126*"race" + 0.083*"record" + 0.079*"track" + 0.079*"odds" + 0.053*"sire" + 0.039*"derby" + 0.030*"weight" + 0.026*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=1.669037, rho=0.367607
+2021-09-02 12:02:07 INFO: PROGRESS: pass 6, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.36796337, 0.49460998]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.368): 0.178*"olympic" + 0.139*"team" + 0.114*"statistic" + 0.091*"equation" + 0.091*"model" + 0.087*"probability" + 0.068*"survey" + 0.062*"sport" + 0.059*"weight" + 0.056*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.495): 0.173*"horse" + 0.148*"win" + 0.121*"race" + 0.097*"track" + 0.097*"odds" + 0.065*"sire" + 0.064*"record" + 0.049*"derby" + 0.035*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=1.404676, rho=0.345033
+2021-09-02 12:02:07 INFO: PROGRESS: pass 6, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.4063563, 0.51295817]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.406): 0.252*"olympic" + 0.193*"team" + 0.076*"statistic" + 0.074*"sport" + 0.072*"weight" + 0.070*"record" + 0.060*"equation" + 0.060*"model" + 0.058*"probability" + 0.045*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.513): 0.209*"win" + 0.171*"horse" + 0.129*"race" + 0.082*"record" + 0.080*"track" + 0.080*"odds" + 0.053*"sire" + 0.040*"derby" + 0.029*"weight" + 0.027*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=1.140152, rho=0.345033
+2021-09-02 12:02:07 INFO: PROGRESS: pass 7, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.35803482, 0.4797167]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.358): 0.180*"olympic" + 0.141*"team" + 0.113*"statistic" + 0.090*"equation" + 0.090*"model" + 0.089*"probability" + 0.068*"survey" + 0.062*"sport" + 0.060*"weight" + 0.056*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.480): 0.173*"horse" + 0.149*"win" + 0.123*"race" + 0.097*"track" + 0.097*"odds" + 0.065*"record" + 0.065*"sire" + 0.048*"derby" + 0.034*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=1.018025, rho=0.326164
+2021-09-02 12:02:07 INFO: PROGRESS: pass 7, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.3935409, 0.49731356]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.394): 0.249*"olympic" + 0.191*"team" + 0.077*"statistic" + 0.074*"sport" + 0.072*"weight" + 0.069*"record" + 0.062*"equation" + 0.062*"model" + 0.061*"probability" + 0.046*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.497): 0.207*"win" + 0.171*"horse" + 0.130*"race" + 0.082*"record" + 0.080*"track" + 0.080*"odds" + 0.054*"sire" + 0.040*"derby" + 0.029*"weight" + 0.027*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.855526, rho=0.326164
+2021-09-02 12:02:07 INFO: PROGRESS: pass 8, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.35015786, 0.46805522]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.350): 0.182*"olympic" + 0.142*"team" + 0.112*"statistic" + 0.089*"equation" + 0.089*"model" + 0.089*"probability" + 0.067*"survey" + 0.062*"sport" + 0.061*"weight" + 0.056*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.468): 0.173*"horse" + 0.150*"win" + 0.124*"race" + 0.096*"track" + 0.096*"odds" + 0.066*"record" + 0.064*"sire" + 0.048*"derby" + 0.033*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.806643, rho=0.310087
+2021-09-02 12:02:07 INFO: PROGRESS: pass 8, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.38332206, 0.484954]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.383): 0.247*"olympic" + 0.189*"team" + 0.078*"statistic" + 0.074*"sport" + 0.072*"weight" + 0.069*"record" + 0.063*"equation" + 0.063*"model" + 0.062*"probability" + 0.047*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.485): 0.204*"win" + 0.172*"horse" + 0.131*"race" + 0.081*"record" + 0.081*"track" + 0.081*"odds" + 0.054*"sire" + 0.041*"derby" + 0.029*"weight" + 0.027*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.706009, rho=0.310087
+2021-09-02 12:02:07 INFO: PROGRESS: pass 9, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.34368533, 0.45866266]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.344): 0.183*"olympic" + 0.143*"team" + 0.111*"statistic" + 0.089*"equation" + 0.089*"model" + 0.089*"probability" + 0.067*"survey" + 0.063*"sport" + 0.061*"weight" + 0.056*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.459): 0.173*"horse" + 0.151*"win" + 0.125*"race" + 0.096*"track" + 0.096*"odds" + 0.066*"record" + 0.064*"sire" + 0.048*"derby" + 0.033*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.686415, rho=0.296174
+2021-09-02 12:02:07 INFO: PROGRESS: pass 9, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.37492794, 0.47493237]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.375): 0.245*"olympic" + 0.188*"team" + 0.079*"statistic" + 0.073*"sport" + 0.072*"weight" + 0.068*"record" + 0.063*"equation" + 0.063*"model" + 0.063*"probability" + 0.048*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.475): 0.202*"win" + 0.172*"horse" + 0.131*"race" + 0.082*"track" + 0.082*"odds" + 0.081*"record" + 0.055*"sire" + 0.041*"derby" + 0.029*"weight" + 0.027*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.605000, rho=0.296174
+2021-09-02 12:02:07 INFO: PROGRESS: pass 10, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.338266, 0.45094368]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.338): 0.185*"olympic" + 0.144*"team" + 0.110*"statistic" + 0.088*"equation" + 0.088*"model" + 0.088*"probability" + 0.066*"survey" + 0.063*"sport" + 0.061*"weight" + 0.056*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.451): 0.173*"horse" + 0.152*"win" + 0.125*"race" + 0.096*"track" + 0.096*"odds" + 0.066*"record" + 0.064*"sire" + 0.048*"derby" + 0.033*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.585371, rho=0.283981
+2021-09-02 12:02:07 INFO: PROGRESS: pass 10, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.3678598, 0.46662572]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.368): 0.243*"olympic" + 0.187*"team" + 0.080*"statistic" + 0.073*"sport" + 0.071*"weight" + 0.068*"record" + 0.064*"equation" + 0.064*"model" + 0.064*"probability" + 0.048*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.467): 0.201*"win" + 0.172*"horse" + 0.131*"race" + 0.082*"track" + 0.082*"odds" + 0.081*"record" + 0.055*"sire" + 0.041*"derby" + 0.029*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.500817, rho=0.283981
+2021-09-02 12:02:07 INFO: PROGRESS: pass 11, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.33365676, 0.44448894]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.334): 0.186*"olympic" + 0.145*"team" + 0.110*"statistic" + 0.088*"equation" + 0.088*"model" + 0.088*"probability" + 0.066*"survey" + 0.063*"sport" + 0.061*"weight" + 0.056*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.444): 0.173*"horse" + 0.153*"win" + 0.125*"race" + 0.096*"track" + 0.096*"odds" + 0.067*"record" + 0.064*"sire" + 0.048*"derby" + 0.033*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.474573, rho=0.273179
+2021-09-02 12:02:07 INFO: PROGRESS: pass 11, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.36183733, 0.45963252]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.362): 0.242*"olympic" + 0.186*"team" + 0.081*"statistic" + 0.073*"sport" + 0.071*"weight" + 0.067*"record" + 0.065*"equation" + 0.065*"model" + 0.065*"probability" + 0.049*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.460): 0.199*"win" + 0.172*"horse" + 0.130*"race" + 0.082*"track" + 0.082*"odds" + 0.080*"record" + 0.055*"sire" + 0.041*"derby" + 0.029*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.393976, rho=0.273179
+2021-09-02 12:02:07 INFO: PROGRESS: pass 12, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.32969892, 0.43901682]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.330): 0.187*"olympic" + 0.146*"team" + 0.109*"statistic" + 0.088*"equation" + 0.088*"model" + 0.088*"probability" + 0.066*"survey" + 0.063*"sport" + 0.061*"weight" + 0.056*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.439): 0.173*"horse" + 0.153*"win" + 0.125*"race" + 0.095*"track" + 0.095*"odds" + 0.067*"record" + 0.064*"sire" + 0.048*"derby" + 0.033*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.368505, rho=0.263523
+2021-09-02 12:02:07 INFO: PROGRESS: pass 12, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.3566578, 0.45367655]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.357): 0.241*"olympic" + 0.185*"team" + 0.081*"statistic" + 0.073*"sport" + 0.071*"weight" + 0.067*"record" + 0.065*"equation" + 0.065*"model" + 0.065*"probability" + 0.049*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.454): 0.198*"win" + 0.172*"horse" + 0.130*"race" + 0.083*"track" + 0.083*"odds" + 0.080*"record" + 0.055*"sire" + 0.042*"derby" + 0.029*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.302250, rho=0.263523
+2021-09-02 12:02:07 INFO: PROGRESS: pass 13, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.32628745, 0.43433815]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.326): 0.188*"olympic" + 0.146*"team" + 0.109*"statistic" + 0.087*"equation" + 0.087*"model" + 0.087*"probability" + 0.066*"survey" + 0.063*"sport" + 0.061*"weight" + 0.057*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.434): 0.173*"horse" + 0.154*"win" + 0.125*"race" + 0.095*"track" + 0.095*"odds" + 0.067*"record" + 0.063*"sire" + 0.048*"derby" + 0.034*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.285576, rho=0.254824
+2021-09-02 12:02:07 INFO: PROGRESS: pass 13, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.35215425, 0.44854143]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.352): 0.240*"olympic" + 0.184*"team" + 0.082*"statistic" + 0.072*"sport" + 0.070*"weight" + 0.067*"record" + 0.066*"equation" + 0.066*"model" + 0.066*"probability" + 0.049*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.449): 0.197*"win" + 0.172*"horse" + 0.130*"race" + 0.083*"track" + 0.083*"odds" + 0.079*"record" + 0.055*"sire" + 0.042*"derby" + 0.030*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.238305, rho=0.254824
+2021-09-02 12:02:07 INFO: PROGRESS: pass 14, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.32332405, 0.43029547]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.323): 0.188*"olympic" + 0.147*"team" + 0.109*"statistic" + 0.087*"equation" + 0.087*"model" + 0.087*"probability" + 0.065*"survey" + 0.064*"sport" + 0.061*"weight" + 0.057*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.430): 0.173*"horse" + 0.154*"win" + 0.125*"race" + 0.095*"track" + 0.095*"odds" + 0.067*"record" + 0.063*"sire" + 0.048*"derby" + 0.034*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.228946, rho=0.246932
+2021-09-02 12:02:07 INFO: PROGRESS: pass 14, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.34822443, 0.4440853]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.348): 0.239*"olympic" + 0.183*"team" + 0.083*"statistic" + 0.072*"sport" + 0.070*"weight" + 0.067*"record" + 0.066*"equation" + 0.066*"model" + 0.066*"probability" + 0.050*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.444): 0.196*"win" + 0.172*"horse" + 0.130*"race" + 0.083*"track" + 0.083*"odds" + 0.079*"record" + 0.056*"sire" + 0.042*"derby" + 0.030*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.196599, rho=0.246932
+2021-09-02 12:02:07 INFO: PROGRESS: pass 15, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.3207434, 0.42678368]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.321): 0.189*"olympic" + 0.147*"team" + 0.108*"statistic" + 0.087*"equation" + 0.087*"model" + 0.087*"probability" + 0.065*"survey" + 0.064*"sport" + 0.061*"weight" + 0.057*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.427): 0.173*"horse" + 0.155*"win" + 0.125*"race" + 0.095*"track" + 0.095*"odds" + 0.067*"record" + 0.063*"sire" + 0.047*"derby" + 0.034*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.192662, rho=0.239732
+2021-09-02 12:02:07 INFO: PROGRESS: pass 15, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.34477818, 0.44018978]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.345): 0.238*"olympic" + 0.183*"team" + 0.083*"statistic" + 0.072*"sport" + 0.070*"weight" + 0.067*"record" + 0.067*"equation" + 0.067*"model" + 0.067*"probability" + 0.050*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.440): 0.195*"win" + 0.172*"horse" + 0.130*"race" + 0.084*"track" + 0.084*"odds" + 0.079*"record" + 0.056*"sire" + 0.042*"derby" + 0.030*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.170334, rho=0.239732
+2021-09-02 12:02:07 INFO: PROGRESS: pass 16, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.31850237, 0.42372054]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.319): 0.190*"olympic" + 0.148*"team" + 0.108*"statistic" + 0.086*"equation" + 0.086*"model" + 0.086*"probability" + 0.065*"survey" + 0.064*"sport" + 0.061*"weight" + 0.057*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.424): 0.173*"horse" + 0.155*"win" + 0.125*"race" + 0.095*"track" + 0.095*"odds" + 0.067*"record" + 0.063*"sire" + 0.047*"derby" + 0.034*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.169681, rho=0.233126
+2021-09-02 12:02:07 INFO: PROGRESS: pass 16, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.34175327, 0.4367695]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.342): 0.237*"olympic" + 0.182*"team" + 0.084*"statistic" + 0.072*"sport" + 0.069*"weight" + 0.067*"equation" + 0.067*"model" + 0.067*"probability" + 0.067*"record" + 0.050*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.437): 0.194*"win" + 0.172*"horse" + 0.130*"race" + 0.084*"track" + 0.084*"odds" + 0.079*"record" + 0.056*"sire" + 0.042*"derby" + 0.030*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.153484, rho=0.233126
+2021-09-02 12:02:07 INFO: PROGRESS: pass 17, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.31653652, 0.42102778]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.317): 0.191*"olympic" + 0.148*"team" + 0.108*"statistic" + 0.086*"equation" + 0.086*"model" + 0.086*"probability" + 0.065*"survey" + 0.064*"sport" + 0.061*"weight" + 0.057*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.421): 0.173*"horse" + 0.156*"win" + 0.125*"race" + 0.095*"track" + 0.095*"odds" + 0.067*"record" + 0.063*"sire" + 0.047*"derby" + 0.034*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.154782, rho=0.227038
+2021-09-02 12:02:07 INFO: PROGRESS: pass 17, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.33908114, 0.4337511]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.339): 0.236*"olympic" + 0.182*"team" + 0.084*"statistic" + 0.072*"sport" + 0.069*"weight" + 0.067*"equation" + 0.067*"model" + 0.067*"probability" + 0.066*"record" + 0.050*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.434): 0.193*"win" + 0.172*"horse" + 0.130*"race" + 0.084*"track" + 0.084*"odds" + 0.078*"record" + 0.056*"sire" + 0.042*"derby" + 0.030*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.142260, rho=0.227038
+2021-09-02 12:02:07 INFO: PROGRESS: pass 18, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.3148114, 0.41865492]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.315): 0.191*"olympic" + 0.149*"team" + 0.107*"statistic" + 0.086*"equation" + 0.086*"model" + 0.086*"probability" + 0.065*"survey" + 0.064*"sport" + 0.061*"weight" + 0.057*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.419): 0.172*"horse" + 0.156*"win" + 0.125*"race" + 0.094*"track" + 0.094*"odds" + 0.068*"record" + 0.063*"sire" + 0.047*"derby" + 0.034*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.144675, rho=0.221404
+2021-09-02 12:02:07 INFO: PROGRESS: pass 18, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.33671096, 0.43107733]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.337): 0.236*"olympic" + 0.181*"team" + 0.084*"statistic" + 0.072*"sport" + 0.069*"weight" + 0.068*"equation" + 0.068*"model" + 0.068*"probability" + 0.066*"record" + 0.051*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.431): 0.193*"win" + 0.172*"horse" + 0.130*"race" + 0.084*"track" + 0.084*"odds" + 0.078*"record" + 0.056*"sire" + 0.042*"derby" + 0.031*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.134387, rho=0.221404
+2021-09-02 12:02:07 INFO: PROGRESS: pass 19, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.31329548, 0.41655895]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.313): 0.192*"olympic" + 0.149*"team" + 0.107*"statistic" + 0.086*"equation" + 0.086*"model" + 0.086*"probability" + 0.064*"survey" + 0.064*"sport" + 0.061*"weight" + 0.057*"record"
+2021-09-02 12:02:07 INFO: topic #1 (0.417): 0.172*"horse" + 0.156*"win" + 0.125*"race" + 0.094*"track" + 0.094*"odds" + 0.068*"record" + 0.063*"sire" + 0.047*"derby" + 0.034*"weight" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.137418, rho=0.216169
+2021-09-02 12:02:07 INFO: PROGRESS: pass 19, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.3345974, 0.4286928]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.335): 0.235*"olympic" + 0.181*"team" + 0.085*"statistic" + 0.072*"sport" + 0.069*"weight" + 0.068*"equation" + 0.068*"model" + 0.068*"probability" + 0.066*"record" + 0.051*"survey"
+2021-09-02 12:02:07 INFO: topic #1 (0.429): 0.192*"win" + 0.172*"horse" + 0.130*"race" + 0.084*"track" + 0.084*"odds" + 0.078*"record" + 0.056*"sire" + 0.042*"derby" + 0.031*"weight" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.129974, rho=0.216169
+2021-09-02 12:02:07 DEBUG: starting a new internal lifecycle event log for LdaModel
+2021-09-02 12:02:07 INFO: LdaModel lifecycle event {'msg': 'trained LdaModel(num_terms=29, num_topics=2, decay=0.5, chunksize=15) in 0.08s', 'datetime': '2021-09-02T12:02:07.776380', 'gensim': '4.0.1', 'python': '3.7.10 (default, Feb 26 2021, 13:06:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'created'}
+2021-09-02 12:02:07 INFO: END: Training Model 1, eta=0.010000, num_topics=2
+2021-09-02 12:02:07 INFO: --------------------------------------
+2021-09-02 12:02:07 INFO: --------------------------------------
+2021-09-02 12:02:07 INFO: START: Training Model 2, eta=0.100000, num_topics=2
+2021-09-02 12:02:07 INFO: using autotuned alpha, starting with [0.5, 0.5]
+2021-09-02 12:02:07 INFO: using serial LDA version on this node
+2021-09-02 12:02:07 INFO: running online (multi-pass) LDA training, 2 topics, 20 passes over the supplied corpus of 21 documents, updating model once every 15 documents, evaluating perplexity every 0 documents, iterating 100x with a convergence threshold of 0.001000
+2021-09-02 12:02:07 INFO: PROGRESS: pass 0, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 12/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.61583835, 0.7118132]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.616): 0.120*"statistic" + 0.103*"horse" + 0.084*"model" + 0.083*"equation" + 0.068*"race" + 0.062*"survey" + 0.058*"regression" + 0.053*"probability" + 0.045*"record" + 0.035*"derby"
+2021-09-02 12:02:07 INFO: topic #1 (0.712): 0.117*"horse" + 0.112*"track" + 0.102*"odds" + 0.079*"race" + 0.078*"win" + 0.071*"sire" + 0.050*"weight" + 0.049*"probability" + 0.041*"derby" + 0.038*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=2.909198, rho=1.000000
+2021-09-02 12:02:07 INFO: PROGRESS: pass 0, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.8333757, 0.6753649]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.833): 0.154*"olympic" + 0.117*"team" + 0.111*"gold" + 0.106*"swim" + 0.068*"country" + 0.056*"record" + 0.051*"horse" + 0.047*"medal" + 0.044*"sport" + 0.038*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.675): 0.220*"win" + 0.073*"horse" + 0.070*"gold" + 0.065*"record" + 0.063*"race" + 0.058*"track" + 0.053*"odds" + 0.043*"weight" + 0.042*"country" + 0.038*"sire"
+2021-09-02 12:02:07 INFO: topic diff=3.211756, rho=0.707107
+2021-09-02 12:02:07 INFO: PROGRESS: pass 1, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.5135758, 0.6474907]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.514): 0.110*"olympic" + 0.089*"statistic" + 0.088*"team" + 0.069*"gold" + 0.067*"equation" + 0.066*"swim" + 0.059*"model" + 0.051*"record" + 0.043*"sport" + 0.042*"country"
+2021-09-02 12:02:07 INFO: topic #1 (0.647): 0.126*"horse" + 0.117*"win" + 0.093*"track" + 0.091*"odds" + 0.080*"race" + 0.062*"sire" + 0.048*"weight" + 0.044*"record" + 0.044*"derby" + 0.040*"probability"
+2021-09-02 12:02:07 INFO: topic diff=1.016412, rho=0.542326
+2021-09-02 12:02:07 INFO: PROGRESS: pass 1, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.64713895, 0.49824762]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.647): 0.141*"gold" + 0.138*"olympic" + 0.124*"swim" + 0.105*"team" + 0.087*"country" + 0.059*"medal" + 0.056*"record" + 0.040*"sport" + 0.031*"weight" + 0.031*"silver"
+2021-09-02 12:02:07 INFO: topic #1 (0.498): 0.228*"win" + 0.116*"horse" + 0.077*"race" + 0.067*"track" + 0.066*"odds" + 0.055*"record" + 0.045*"sire" + 0.041*"weight" + 0.035*"gold" + 0.033*"derby"
+2021-09-02 12:02:07 INFO: topic diff=0.928707, rho=0.542326
+2021-09-02 12:02:07 INFO: PROGRESS: pass 2, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.37944946, 0.46162772]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.379): 0.109*"olympic" + 0.099*"gold" + 0.087*"swim" + 0.086*"team" + 0.081*"statistic" + 0.064*"equation" + 0.061*"country" + 0.056*"model" + 0.053*"record" + 0.042*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.462): 0.144*"horse" + 0.127*"win" + 0.093*"track" + 0.093*"odds" + 0.086*"race" + 0.063*"sire" + 0.047*"weight" + 0.047*"derby" + 0.043*"record" + 0.038*"probability"
+2021-09-02 12:02:07 INFO: topic diff=0.821383, rho=0.476731
+2021-09-02 12:02:07 INFO: PROGRESS: pass 2, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.4792711, 0.39429525]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.479): 0.150*"gold" + 0.133*"olympic" + 0.124*"swim" + 0.102*"team" + 0.092*"country" + 0.062*"medal" + 0.059*"record" + 0.039*"sport" + 0.032*"statistic" + 0.032*"silver"
+2021-09-02 12:02:07 INFO: topic #1 (0.394): 0.224*"win" + 0.146*"horse" + 0.087*"race" + 0.073*"track" + 0.072*"odds" + 0.049*"sire" + 0.047*"record" + 0.039*"weight" + 0.037*"derby" + 0.030*"probability"
+2021-09-02 12:02:07 INFO: topic diff=0.672637, rho=0.476731
+2021-09-02 12:02:07 INFO: PROGRESS: pass 3, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.32570535, 0.3724882]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.326): 0.110*"gold" + 0.108*"olympic" + 0.091*"swim" + 0.085*"team" + 0.076*"statistic" + 0.068*"country" + 0.061*"equation" + 0.057*"model" + 0.055*"record" + 0.046*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.372): 0.155*"horse" + 0.134*"win" + 0.094*"track" + 0.094*"odds" + 0.090*"race" + 0.063*"sire" + 0.048*"derby" + 0.047*"weight" + 0.040*"record" + 0.034*"probability"
+2021-09-02 12:02:07 INFO: topic diff=0.606203, rho=0.430331
+2021-09-02 12:02:07 INFO: PROGRESS: pass 3, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.40882236, 0.34280363]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.409): 0.152*"gold" + 0.131*"olympic" + 0.123*"swim" + 0.100*"team" + 0.092*"country" + 0.062*"medal" + 0.061*"record" + 0.039*"sport" + 0.035*"statistic" + 0.032*"weight"
+2021-09-02 12:02:07 INFO: topic #1 (0.343): 0.218*"win" + 0.159*"horse" + 0.091*"race" + 0.076*"track" + 0.075*"odds" + 0.051*"sire" + 0.042*"record" + 0.040*"weight" + 0.039*"derby" + 0.028*"probability"
+2021-09-02 12:02:07 INFO: topic diff=0.507111, rho=0.430331
+2021-09-02 12:02:07 INFO: PROGRESS: pass 4, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.29694968, 0.3265062]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.297): 0.115*"gold" + 0.108*"olympic" + 0.093*"swim" + 0.085*"team" + 0.074*"statistic" + 0.070*"country" + 0.059*"equation" + 0.057*"model" + 0.056*"record" + 0.047*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.327): 0.161*"horse" + 0.137*"win" + 0.094*"track" + 0.094*"odds" + 0.092*"race" + 0.063*"sire" + 0.048*"derby" + 0.048*"weight" + 0.039*"record" + 0.033*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.466917, rho=0.395285
+2021-09-02 12:02:07 INFO: PROGRESS: pass 4, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.36911178, 0.31168598]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.369): 0.151*"gold" + 0.129*"olympic" + 0.122*"swim" + 0.099*"team" + 0.091*"country" + 0.062*"record" + 0.061*"medal" + 0.039*"sport" + 0.036*"statistic" + 0.031*"weight"
+2021-09-02 12:02:07 INFO: topic #1 (0.312): 0.213*"win" + 0.165*"horse" + 0.094*"race" + 0.077*"track" + 0.077*"odds" + 0.052*"sire" + 0.040*"weight" + 0.040*"derby" + 0.039*"record" + 0.027*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.393637, rho=0.395285
+2021-09-02 12:02:07 INFO: PROGRESS: pass 5, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.2792313, 0.29904944]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.279): 0.117*"gold" + 0.109*"olympic" + 0.095*"swim" + 0.086*"team" + 0.072*"statistic" + 0.071*"country" + 0.058*"equation" + 0.057*"record" + 0.057*"model" + 0.048*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.299): 0.164*"horse" + 0.140*"win" + 0.094*"track" + 0.094*"odds" + 0.093*"race" + 0.063*"sire" + 0.048*"derby" + 0.048*"weight" + 0.038*"record" + 0.033*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.395348, rho=0.367607
+2021-09-02 12:02:07 INFO: PROGRESS: pass 5, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.34368858, 0.29122004]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.344): 0.150*"gold" + 0.128*"olympic" + 0.121*"swim" + 0.098*"team" + 0.091*"country" + 0.062*"record" + 0.061*"medal" + 0.039*"sport" + 0.038*"statistic" + 0.031*"weight"
+2021-09-02 12:02:07 INFO: topic #1 (0.291): 0.209*"win" + 0.167*"horse" + 0.095*"race" + 0.079*"track" + 0.079*"odds" + 0.053*"sire" + 0.041*"weight" + 0.041*"derby" + 0.038*"record" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.328728, rho=0.367607
+2021-09-02 12:02:07 INFO: PROGRESS: pass 6, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.26759088, 0.28098714]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.268): 0.119*"gold" + 0.109*"olympic" + 0.096*"swim" + 0.086*"team" + 0.072*"country" + 0.070*"statistic" + 0.058*"record" + 0.057*"equation" + 0.056*"model" + 0.049*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.281): 0.165*"horse" + 0.142*"win" + 0.094*"track" + 0.094*"odds" + 0.093*"race" + 0.063*"sire" + 0.048*"derby" + 0.048*"weight" + 0.037*"record" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.338002, rho=0.345033
+2021-09-02 12:02:07 INFO: PROGRESS: pass 6, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.3263813, 0.27700204]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.326): 0.149*"gold" + 0.127*"olympic" + 0.120*"swim" + 0.098*"team" + 0.090*"country" + 0.063*"record" + 0.060*"medal" + 0.039*"statistic" + 0.038*"sport" + 0.031*"equation"
+2021-09-02 12:02:07 INFO: topic #1 (0.277): 0.206*"win" + 0.168*"horse" + 0.095*"race" + 0.080*"track" + 0.080*"odds" + 0.054*"sire" + 0.041*"derby" + 0.041*"weight" + 0.038*"record" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.287739, rho=0.345033
+2021-09-02 12:02:07 INFO: PROGRESS: pass 7, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.2596506, 0.26838273]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.260): 0.120*"gold" + 0.110*"olympic" + 0.096*"swim" + 0.086*"team" + 0.073*"country" + 0.069*"statistic" + 0.058*"record" + 0.056*"equation" + 0.056*"model" + 0.049*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.268): 0.166*"horse" + 0.143*"win" + 0.094*"track" + 0.094*"odds" + 0.094*"race" + 0.063*"sire" + 0.048*"derby" + 0.048*"weight" + 0.037*"record" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.293816, rho=0.326164
+2021-09-02 12:02:07 INFO: PROGRESS: pass 7, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.3140989, 0.2667075]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.314): 0.148*"gold" + 0.127*"olympic" + 0.119*"swim" + 0.097*"team" + 0.089*"country" + 0.063*"record" + 0.060*"medal" + 0.040*"statistic" + 0.038*"sport" + 0.032*"equation"
+2021-09-02 12:02:07 INFO: topic #1 (0.267): 0.203*"win" + 0.169*"horse" + 0.095*"race" + 0.080*"track" + 0.080*"odds" + 0.054*"sire" + 0.041*"derby" + 0.041*"weight" + 0.037*"record" + 0.028*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.259935, rho=0.326164
+2021-09-02 12:02:07 INFO: PROGRESS: pass 8, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.2541133, 0.2592548]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.254): 0.121*"gold" + 0.110*"olympic" + 0.097*"swim" + 0.086*"team" + 0.073*"country" + 0.068*"statistic" + 0.059*"record" + 0.055*"equation" + 0.055*"model" + 0.049*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.259): 0.166*"horse" + 0.145*"win" + 0.094*"race" + 0.093*"track" + 0.093*"odds" + 0.063*"sire" + 0.048*"derby" + 0.047*"weight" + 0.037*"record" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.263649, rho=0.310087
+2021-09-02 12:02:07 INFO: PROGRESS: pass 8, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.30512863, 0.25905725]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.305): 0.147*"gold" + 0.126*"olympic" + 0.118*"swim" + 0.097*"team" + 0.089*"country" + 0.063*"record" + 0.060*"medal" + 0.041*"statistic" + 0.038*"sport" + 0.033*"equation"
+2021-09-02 12:02:07 INFO: topic #1 (0.259): 0.201*"win" + 0.169*"horse" + 0.095*"race" + 0.081*"track" + 0.081*"odds" + 0.055*"sire" + 0.042*"derby" + 0.042*"weight" + 0.037*"record" + 0.029*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.246077, rho=0.310087
+2021-09-02 12:02:07 INFO: PROGRESS: pass 9, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.25019428, 0.25246018]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.250): 0.121*"gold" + 0.111*"olympic" + 0.097*"swim" + 0.087*"team" + 0.073*"country" + 0.068*"statistic" + 0.059*"record" + 0.054*"equation" + 0.054*"model" + 0.049*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.252): 0.167*"horse" + 0.146*"win" + 0.094*"race" + 0.093*"track" + 0.093*"odds" + 0.063*"sire" + 0.048*"derby" + 0.047*"weight" + 0.037*"record" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.243169, rho=0.296174
+2021-09-02 12:02:07 INFO: PROGRESS: pass 9, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.2984193, 0.2532473]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.298): 0.147*"gold" + 0.126*"olympic" + 0.118*"swim" + 0.097*"team" + 0.089*"country" + 0.063*"record" + 0.059*"medal" + 0.041*"statistic" + 0.038*"sport" + 0.033*"equation"
+2021-09-02 12:02:07 INFO: topic #1 (0.253): 0.199*"win" + 0.169*"horse" + 0.095*"race" + 0.082*"track" + 0.082*"odds" + 0.055*"sire" + 0.042*"derby" + 0.042*"weight" + 0.037*"record" + 0.029*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.233827, rho=0.296174
+2021-09-02 12:02:07 INFO: PROGRESS: pass 10, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.24741787, 0.24730083]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.247): 0.122*"gold" + 0.111*"olympic" + 0.098*"swim" + 0.087*"team" + 0.074*"country" + 0.067*"statistic" + 0.059*"record" + 0.054*"equation" + 0.054*"model" + 0.050*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.247): 0.167*"horse" + 0.147*"win" + 0.094*"race" + 0.093*"track" + 0.093*"odds" + 0.063*"sire" + 0.048*"derby" + 0.047*"weight" + 0.037*"record" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.230166, rho=0.283981
+2021-09-02 12:02:07 INFO: PROGRESS: pass 10, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.2933258, 0.24876629]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.293): 0.146*"gold" + 0.125*"olympic" + 0.117*"swim" + 0.096*"team" + 0.088*"country" + 0.063*"record" + 0.059*"medal" + 0.042*"statistic" + 0.038*"sport" + 0.034*"equation"
+2021-09-02 12:02:07 INFO: topic #1 (0.249): 0.197*"win" + 0.169*"horse" + 0.095*"race" + 0.082*"track" + 0.082*"odds" + 0.055*"sire" + 0.042*"derby" + 0.042*"weight" + 0.037*"record" + 0.029*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.222867, rho=0.283981
+2021-09-02 12:02:07 INFO: PROGRESS: pass 11, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.24546812, 0.243329]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.245): 0.122*"gold" + 0.111*"olympic" + 0.098*"swim" + 0.087*"team" + 0.074*"country" + 0.066*"statistic" + 0.059*"record" + 0.053*"equation" + 0.053*"model" + 0.050*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.243): 0.167*"horse" + 0.148*"win" + 0.094*"race" + 0.093*"track" + 0.093*"odds" + 0.063*"sire" + 0.048*"derby" + 0.047*"weight" + 0.037*"record" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.219170, rho=0.273179
+2021-09-02 12:02:07 INFO: PROGRESS: pass 11, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.2894154, 0.24526909]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.289): 0.145*"gold" + 0.125*"olympic" + 0.117*"swim" + 0.096*"team" + 0.088*"country" + 0.062*"record" + 0.059*"medal" + 0.043*"statistic" + 0.038*"sport" + 0.034*"equation"
+2021-09-02 12:02:07 INFO: topic #1 (0.245): 0.196*"win" + 0.169*"horse" + 0.095*"race" + 0.082*"track" + 0.082*"odds" + 0.056*"sire" + 0.042*"derby" + 0.042*"weight" + 0.037*"record" + 0.029*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.213140, rho=0.273179
+2021-09-02 12:02:07 INFO: PROGRESS: pass 12, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.24413085, 0.2402366]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.244): 0.123*"gold" + 0.111*"olympic" + 0.098*"swim" + 0.087*"team" + 0.074*"country" + 0.066*"statistic" + 0.059*"record" + 0.053*"equation" + 0.053*"model" + 0.050*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.240): 0.167*"horse" + 0.148*"win" + 0.094*"race" + 0.093*"track" + 0.093*"odds" + 0.063*"sire" + 0.047*"derby" + 0.047*"weight" + 0.037*"record" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.209644, rho=0.263523
+2021-09-02 12:02:07 INFO: PROGRESS: pass 12, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.28639457, 0.2425166]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.286): 0.145*"gold" + 0.124*"olympic" + 0.116*"swim" + 0.096*"team" + 0.087*"country" + 0.062*"record" + 0.059*"medal" + 0.043*"statistic" + 0.038*"sport" + 0.035*"equation"
+2021-09-02 12:02:07 INFO: topic #1 (0.243): 0.195*"win" + 0.169*"horse" + 0.095*"race" + 0.083*"track" + 0.083*"odds" + 0.056*"sire" + 0.043*"derby" + 0.042*"weight" + 0.037*"record" + 0.029*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.204489, rho=0.263523
+2021-09-02 12:02:07 INFO: PROGRESS: pass 13, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.24325012, 0.23781332]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.243): 0.123*"gold" + 0.112*"olympic" + 0.099*"swim" + 0.087*"team" + 0.074*"country" + 0.065*"statistic" + 0.059*"record" + 0.053*"equation" + 0.053*"model" + 0.050*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.238): 0.167*"horse" + 0.149*"win" + 0.094*"race" + 0.093*"track" + 0.093*"odds" + 0.063*"sire" + 0.047*"derby" + 0.047*"weight" + 0.037*"record" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.201258, rho=0.254824
+2021-09-02 12:02:07 INFO: PROGRESS: pass 13, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.28404728, 0.24033742]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.284): 0.144*"gold" + 0.124*"olympic" + 0.116*"swim" + 0.096*"team" + 0.087*"country" + 0.062*"record" + 0.059*"medal" + 0.043*"statistic" + 0.038*"sport" + 0.035*"equation"
+2021-09-02 12:02:07 INFO: topic #1 (0.240): 0.194*"win" + 0.169*"horse" + 0.095*"race" + 0.083*"track" + 0.083*"odds" + 0.056*"sire" + 0.043*"derby" + 0.043*"weight" + 0.037*"record" + 0.029*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.196750, rho=0.254824
+2021-09-02 12:02:07 INFO: PROGRESS: pass 14, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.24272129, 0.23591185]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.243): 0.123*"gold" + 0.112*"olympic" + 0.099*"swim" + 0.087*"team" + 0.075*"country" + 0.065*"statistic" + 0.059*"record" + 0.052*"equation" + 0.052*"model" + 0.050*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.236): 0.167*"horse" + 0.150*"win" + 0.094*"race" + 0.093*"track" + 0.093*"odds" + 0.062*"sire" + 0.047*"derby" + 0.047*"weight" + 0.037*"record" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.193790, rho=0.246932
+2021-09-02 12:02:07 INFO: PROGRESS: pass 14, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.2822276, 0.23861289]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.282): 0.144*"gold" + 0.124*"olympic" + 0.116*"swim" + 0.095*"team" + 0.087*"country" + 0.062*"record" + 0.058*"medal" + 0.044*"statistic" + 0.038*"sport" + 0.035*"equation"
+2021-09-02 12:02:07 INFO: topic #1 (0.239): 0.193*"win" + 0.169*"horse" + 0.095*"race" + 0.083*"track" + 0.083*"odds" + 0.056*"sire" + 0.043*"derby" + 0.043*"weight" + 0.037*"record" + 0.029*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.189787, rho=0.246932
+2021-09-02 12:02:07 INFO: PROGRESS: pass 15, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.24246418, 0.23441415]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.242): 0.124*"gold" + 0.112*"olympic" + 0.099*"swim" + 0.087*"team" + 0.075*"country" + 0.065*"statistic" + 0.059*"record" + 0.052*"equation" + 0.052*"model" + 0.050*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.234): 0.167*"horse" + 0.150*"win" + 0.094*"race" + 0.093*"track" + 0.093*"odds" + 0.062*"sire" + 0.047*"derby" + 0.047*"weight" + 0.037*"record" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.187077, rho=0.239732
+2021-09-02 12:02:07 INFO: PROGRESS: pass 15, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.28082252, 0.2372424]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.281): 0.144*"gold" + 0.124*"olympic" + 0.115*"swim" + 0.095*"team" + 0.087*"country" + 0.062*"record" + 0.058*"medal" + 0.044*"statistic" + 0.038*"sport" + 0.036*"equation"
+2021-09-02 12:02:07 INFO: topic #1 (0.237): 0.192*"win" + 0.169*"horse" + 0.095*"race" + 0.084*"track" + 0.084*"odds" + 0.056*"sire" + 0.043*"derby" + 0.043*"weight" + 0.037*"record" + 0.029*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.183482, rho=0.239732
+2021-09-02 12:02:07 INFO: PROGRESS: pass 16, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.24241516, 0.23323356]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.242): 0.124*"gold" + 0.112*"olympic" + 0.100*"swim" + 0.088*"team" + 0.075*"country" + 0.064*"statistic" + 0.059*"record" + 0.052*"equation" + 0.052*"model" + 0.051*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.233): 0.167*"horse" + 0.151*"win" + 0.094*"race" + 0.093*"track" + 0.093*"odds" + 0.062*"sire" + 0.047*"derby" + 0.047*"weight" + 0.037*"record" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.180998, rho=0.233126
+2021-09-02 12:02:07 INFO: PROGRESS: pass 16, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.27974337, 0.23615302]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.280): 0.143*"gold" + 0.124*"olympic" + 0.115*"swim" + 0.095*"team" + 0.087*"country" + 0.062*"record" + 0.058*"medal" + 0.044*"statistic" + 0.038*"sport" + 0.036*"equation"
+2021-09-02 12:02:07 INFO: topic #1 (0.236): 0.191*"win" + 0.169*"horse" + 0.095*"race" + 0.084*"track" + 0.084*"odds" + 0.057*"sire" + 0.043*"derby" + 0.043*"weight" + 0.037*"record" + 0.029*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.177742, rho=0.233126
+2021-09-02 12:02:07 INFO: PROGRESS: pass 17, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.2425337, 0.23230776]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.243): 0.124*"gold" + 0.112*"olympic" + 0.100*"swim" + 0.088*"team" + 0.075*"country" + 0.064*"statistic" + 0.059*"record" + 0.052*"equation" + 0.052*"model" + 0.051*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.232): 0.167*"horse" + 0.151*"win" + 0.094*"race" + 0.093*"track" + 0.093*"odds" + 0.062*"sire" + 0.047*"derby" + 0.047*"weight" + 0.037*"record" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.175458, rho=0.227038
+2021-09-02 12:02:07 INFO: PROGRESS: pass 17, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.27893165, 0.23529252]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.279): 0.143*"gold" + 0.123*"olympic" + 0.115*"swim" + 0.095*"team" + 0.086*"country" + 0.062*"record" + 0.058*"medal" + 0.045*"statistic" + 0.038*"sport" + 0.036*"equation"
+2021-09-02 12:02:07 INFO: topic #1 (0.235): 0.190*"win" + 0.169*"horse" + 0.095*"race" + 0.084*"track" + 0.084*"odds" + 0.057*"sire" + 0.043*"derby" + 0.043*"weight" + 0.037*"record" + 0.029*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.172490, rho=0.227038
+2021-09-02 12:02:07 INFO: PROGRESS: pass 18, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.24277931, 0.23158768]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.243): 0.125*"gold" + 0.112*"olympic" + 0.100*"swim" + 0.088*"team" + 0.075*"country" + 0.064*"statistic" + 0.059*"record" + 0.051*"equation" + 0.051*"model" + 0.051*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.232): 0.168*"horse" + 0.152*"win" + 0.094*"race" + 0.092*"track" + 0.092*"odds" + 0.062*"sire" + 0.047*"derby" + 0.047*"weight" + 0.037*"record" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.170383, rho=0.221404
+2021-09-02 12:02:07 INFO: PROGRESS: pass 18, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.27833065, 0.23461768]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.278): 0.143*"gold" + 0.123*"olympic" + 0.115*"swim" + 0.095*"team" + 0.086*"country" + 0.062*"record" + 0.058*"medal" + 0.045*"statistic" + 0.038*"sport" + 0.036*"equation"
+2021-09-02 12:02:07 INFO: topic #1 (0.235): 0.190*"win" + 0.169*"horse" + 0.095*"race" + 0.084*"track" + 0.084*"odds" + 0.057*"sire" + 0.043*"derby" + 0.043*"weight" + 0.037*"record" + 0.030*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.167661, rho=0.221404
+2021-09-02 12:02:07 INFO: PROGRESS: pass 19, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.24312705, 0.2310362]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.243): 0.125*"gold" + 0.112*"olympic" + 0.100*"swim" + 0.088*"team" + 0.075*"country" + 0.064*"statistic" + 0.059*"record" + 0.051*"equation" + 0.051*"model" + 0.051*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.231): 0.168*"horse" + 0.152*"win" + 0.094*"race" + 0.092*"track" + 0.092*"odds" + 0.062*"sire" + 0.047*"derby" + 0.047*"weight" + 0.037*"record" + 0.032*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.165710, rho=0.216169
+2021-09-02 12:02:07 INFO: PROGRESS: pass 19, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.27790287, 0.23409478]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.278): 0.143*"gold" + 0.123*"olympic" + 0.114*"swim" + 0.095*"team" + 0.086*"country" + 0.062*"record" + 0.058*"medal" + 0.045*"statistic" + 0.038*"sport" + 0.036*"equation"
+2021-09-02 12:02:07 INFO: topic #1 (0.234): 0.189*"win" + 0.169*"horse" + 0.095*"race" + 0.084*"track" + 0.084*"odds" + 0.057*"sire" + 0.043*"derby" + 0.043*"weight" + 0.037*"record" + 0.030*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.163203, rho=0.216169
+2021-09-02 12:02:07 DEBUG: starting a new internal lifecycle event log for LdaModel
+2021-09-02 12:02:07 INFO: LdaModel lifecycle event {'msg': 'trained LdaModel(num_terms=29, num_topics=2, decay=0.5, chunksize=15) in 0.09s', 'datetime': '2021-09-02T12:02:07.869147', 'gensim': '4.0.1', 'python': '3.7.10 (default, Feb 26 2021, 13:06:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'created'}
+2021-09-02 12:02:07 INFO: END: Training Model 2, eta=0.100000, num_topics=2
+2021-09-02 12:02:07 INFO: --------------------------------------
+2021-09-02 12:02:07 INFO: --------------------------------------
+2021-09-02 12:02:07 INFO: START: Training Model 3, eta=1.000000, num_topics=2
+2021-09-02 12:02:07 INFO: using autotuned alpha, starting with [0.5, 0.5]
+2021-09-02 12:02:07 INFO: using serial LDA version on this node
+2021-09-02 12:02:07 INFO: running online (multi-pass) LDA training, 2 topics, 20 passes over the supplied corpus of 21 documents, updating model once every 15 documents, evaluating perplexity every 0 documents, iterating 100x with a convergence threshold of 0.001000
+2021-09-02 12:02:07 INFO: PROGRESS: pass 0, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 12/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.61583835, 0.7118132]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.616): 0.089*"statistic" + 0.078*"horse" + 0.066*"model" + 0.066*"equation" + 0.056*"race" + 0.052*"survey" + 0.050*"regression" + 0.046*"probability" + 0.041*"record" + 0.035*"derby"
+2021-09-02 12:02:07 INFO: topic #1 (0.712): 0.094*"horse" + 0.091*"track" + 0.083*"odds" + 0.067*"race" + 0.066*"win" + 0.061*"sire" + 0.046*"weight" + 0.045*"probability" + 0.039*"derby" + 0.037*"kentucky"
+2021-09-02 12:02:07 INFO: topic diff=0.694080, rho=1.000000
+2021-09-02 12:02:07 INFO: PROGRESS: pass 0, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.85290337, 0.7234644]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.853): 0.108*"olympic" + 0.099*"gold" + 0.096*"swim" + 0.084*"team" + 0.065*"country" + 0.048*"record" + 0.046*"medal" + 0.043*"horse" + 0.039*"sport" + 0.036*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.723): 0.124*"win" + 0.068*"gold" + 0.058*"horse" + 0.051*"record" + 0.050*"race" + 0.047*"track" + 0.045*"country" + 0.044*"odds" + 0.037*"swim" + 0.036*"medal"
+2021-09-02 12:02:07 INFO: topic diff=0.873931, rho=0.707107
+2021-09-02 12:02:07 INFO: PROGRESS: pass 1, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.6790797, 0.8160953]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.679): 0.079*"olympic" + 0.065*"team" + 0.064*"gold" + 0.062*"swim" + 0.062*"statistic" + 0.045*"equation" + 0.045*"record" + 0.044*"country" + 0.043*"model" + 0.041*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.816): 0.095*"horse" + 0.083*"win" + 0.072*"track" + 0.070*"odds" + 0.063*"race" + 0.051*"sire" + 0.040*"record" + 0.039*"weight" + 0.039*"derby" + 0.037*"probability"
+2021-09-02 12:02:07 INFO: topic diff=0.396914, rho=0.542326
+2021-09-02 12:02:07 INFO: PROGRESS: pass 1, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.8462657, 0.6502241]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.846): 0.111*"gold" + 0.107*"olympic" + 0.101*"swim" + 0.084*"team" + 0.071*"country" + 0.050*"record" + 0.048*"medal" + 0.038*"sport" + 0.034*"weight" + 0.033*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.650): 0.118*"win" + 0.082*"horse" + 0.055*"race" + 0.052*"track" + 0.051*"odds" + 0.047*"record" + 0.045*"gold" + 0.039*"sire" + 0.035*"weight" + 0.032*"country"
+2021-09-02 12:02:07 INFO: topic diff=0.360708, rho=0.542326
+2021-09-02 12:02:07 INFO: PROGRESS: pass 2, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.5801938, 0.70215833]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.580): 0.085*"olympic" + 0.079*"gold" + 0.073*"swim" + 0.069*"team" + 0.058*"statistic" + 0.053*"country" + 0.048*"record" + 0.041*"equation" + 0.039*"sport" + 0.038*"medal"
+2021-09-02 12:02:07 INFO: topic #1 (0.702): 0.104*"horse" + 0.082*"win" + 0.071*"track" + 0.070*"odds" + 0.064*"race" + 0.051*"sire" + 0.040*"derby" + 0.039*"weight" + 0.039*"probability" + 0.039*"record"
+2021-09-02 12:02:07 INFO: topic diff=0.321328, rho=0.476731
+2021-09-02 12:02:07 INFO: PROGRESS: pass 2, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.6944026, 0.50575435]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.694): 0.116*"gold" + 0.104*"olympic" + 0.100*"swim" + 0.082*"team" + 0.074*"country" + 0.053*"record" + 0.049*"medal" + 0.041*"win" + 0.037*"sport" + 0.033*"weight"
+2021-09-02 12:02:07 INFO: topic #1 (0.506): 0.102*"win" + 0.098*"horse" + 0.058*"race" + 0.057*"track" + 0.056*"odds" + 0.043*"sire" + 0.042*"record" + 0.036*"weight" + 0.035*"derby" + 0.034*"probability"
+2021-09-02 12:02:07 INFO: topic diff=0.277346, rho=0.476731
+2021-09-02 12:02:07 INFO: PROGRESS: pass 3, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.44680512, 0.54827315]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.447): 0.089*"gold" + 0.088*"olympic" + 0.077*"swim" + 0.072*"team" + 0.059*"country" + 0.054*"statistic" + 0.052*"record" + 0.041*"medal" + 0.040*"sport" + 0.038*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.548): 0.109*"horse" + 0.076*"win" + 0.070*"track" + 0.070*"odds" + 0.064*"race" + 0.051*"sire" + 0.041*"probability" + 0.040*"derby" + 0.039*"weight" + 0.036*"record"
+2021-09-02 12:02:07 INFO: topic diff=0.262870, rho=0.430331
+2021-09-02 12:02:07 INFO: PROGRESS: pass 3, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.5133815, 0.34546292]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.513): 0.118*"gold" + 0.102*"olympic" + 0.098*"swim" + 0.081*"team" + 0.074*"country" + 0.057*"win" + 0.056*"record" + 0.049*"medal" + 0.037*"sport" + 0.034*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.345): 0.108*"horse" + 0.077*"win" + 0.060*"track" + 0.060*"odds" + 0.057*"race" + 0.045*"sire" + 0.038*"probability" + 0.037*"weight" + 0.037*"derby" + 0.036*"record"
+2021-09-02 12:02:07 INFO: topic diff=0.229062, rho=0.430331
+2021-09-02 12:02:07 INFO: PROGRESS: pass 4, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.27833036, 0.3727843]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.278): 0.098*"gold" + 0.093*"olympic" + 0.083*"swim" + 0.076*"team" + 0.064*"country" + 0.057*"record" + 0.051*"win" + 0.044*"medal" + 0.041*"sport" + 0.040*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.373): 0.107*"horse" + 0.068*"track" + 0.068*"odds" + 0.062*"win" + 0.060*"race" + 0.049*"sire" + 0.045*"probability" + 0.043*"equation" + 0.042*"model" + 0.039*"derby"
+2021-09-02 12:02:07 INFO: topic diff=0.211145, rho=0.395285
+2021-09-02 12:02:07 INFO: PROGRESS: pass 4, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.31354445, 0.21165933]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.314): 0.119*"gold" + 0.103*"olympic" + 0.098*"swim" + 0.081*"team" + 0.076*"country" + 0.068*"win" + 0.058*"record" + 0.051*"medal" + 0.037*"sport" + 0.036*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.212): 0.109*"horse" + 0.061*"track" + 0.061*"odds" + 0.058*"win" + 0.055*"race" + 0.045*"sire" + 0.042*"probability" + 0.041*"equation" + 0.040*"model" + 0.038*"derby"
+2021-09-02 12:02:07 INFO: topic diff=0.197860, rho=0.395285
+2021-09-02 12:02:07 INFO: PROGRESS: pass 5, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.16267347, 0.22695045]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.163): 0.103*"gold" + 0.096*"olympic" + 0.086*"swim" + 0.079*"team" + 0.067*"country" + 0.062*"win" + 0.060*"record" + 0.047*"medal" + 0.042*"sport" + 0.042*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.227): 0.106*"horse" + 0.067*"track" + 0.067*"odds" + 0.058*"race" + 0.054*"win" + 0.049*"statistic" + 0.048*"sire" + 0.046*"probability" + 0.046*"equation" + 0.045*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.168243, rho=0.367607
+2021-09-02 12:02:07 INFO: PROGRESS: pass 5, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.18596552, 0.14315891]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.186): 0.121*"gold" + 0.104*"olympic" + 0.099*"swim" + 0.082*"team" + 0.076*"country" + 0.074*"win" + 0.060*"record" + 0.052*"medal" + 0.038*"sport" + 0.037*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.143): 0.107*"horse" + 0.061*"track" + 0.061*"odds" + 0.054*"race" + 0.050*"win" + 0.046*"statistic" + 0.045*"sire" + 0.044*"probability" + 0.043*"equation" + 0.043*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.171427, rho=0.367607
+2021-09-02 12:02:07 INFO: PROGRESS: pass 6, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.11930475, 0.15655583]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.119): 0.105*"gold" + 0.098*"olympic" + 0.087*"swim" + 0.080*"team" + 0.069*"country" + 0.066*"win" + 0.061*"record" + 0.048*"medal" + 0.042*"sport" + 0.042*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.157): 0.105*"horse" + 0.066*"track" + 0.066*"odds" + 0.057*"race" + 0.054*"statistic" + 0.050*"win" + 0.048*"sire" + 0.047*"probability" + 0.047*"equation" + 0.047*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.151310, rho=0.345033
+2021-09-02 12:02:07 INFO: PROGRESS: pass 6, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.13743752, 0.111854166]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.137): 0.121*"gold" + 0.104*"olympic" + 0.099*"swim" + 0.082*"team" + 0.077*"country" + 0.075*"win" + 0.060*"record" + 0.053*"medal" + 0.038*"sport" + 0.038*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.112): 0.105*"horse" + 0.061*"track" + 0.061*"odds" + 0.053*"race" + 0.050*"statistic" + 0.047*"win" + 0.045*"sire" + 0.045*"probability" + 0.044*"equation" + 0.044*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.153027, rho=0.345033
+2021-09-02 12:02:07 INFO: PROGRESS: pass 7, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.096970156, 0.12309529]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.097): 0.107*"gold" + 0.098*"olympic" + 0.088*"swim" + 0.080*"team" + 0.069*"country" + 0.068*"win" + 0.061*"record" + 0.049*"medal" + 0.042*"sport" + 0.042*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.123): 0.105*"horse" + 0.066*"track" + 0.066*"odds" + 0.057*"race" + 0.055*"statistic" + 0.049*"win" + 0.048*"sire" + 0.047*"probability" + 0.047*"equation" + 0.047*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.141725, rho=0.326164
+2021-09-02 12:02:07 INFO: PROGRESS: pass 7, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.1093587, 0.083739884]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.109): 0.120*"gold" + 0.103*"olympic" + 0.098*"swim" + 0.082*"team" + 0.076*"country" + 0.075*"win" + 0.060*"record" + 0.053*"medal" + 0.038*"sport" + 0.038*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.084): 0.095*"horse" + 0.062*"track" + 0.062*"odds" + 0.054*"race" + 0.052*"statistic" + 0.047*"win" + 0.046*"sire" + 0.046*"probability" + 0.046*"equation" + 0.045*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.148574, rho=0.326164
+2021-09-02 12:02:07 INFO: PROGRESS: pass 8, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.07935734, 0.092409775]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.079): 0.106*"gold" + 0.098*"olympic" + 0.088*"swim" + 0.079*"team" + 0.069*"country" + 0.068*"win" + 0.061*"record" + 0.050*"medal" + 0.042*"sport" + 0.042*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.092): 0.099*"horse" + 0.066*"track" + 0.066*"odds" + 0.057*"race" + 0.056*"statistic" + 0.048*"win" + 0.048*"sire" + 0.048*"probability" + 0.048*"equation" + 0.048*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.133902, rho=0.310087
+2021-09-02 12:02:07 INFO: PROGRESS: pass 8, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.08963081, 0.06825342]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.090): 0.119*"gold" + 0.103*"olympic" + 0.097*"swim" + 0.081*"team" + 0.075*"country" + 0.075*"win" + 0.060*"record" + 0.053*"medal" + 0.038*"sport" + 0.038*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.068): 0.091*"horse" + 0.062*"track" + 0.062*"odds" + 0.054*"race" + 0.054*"statistic" + 0.047*"win" + 0.046*"sire" + 0.046*"probability" + 0.046*"equation" + 0.046*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.134470, rho=0.310087
+2021-09-02 12:02:07 INFO: PROGRESS: pass 9, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.06733923, 0.07536508]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.067): 0.106*"gold" + 0.098*"olympic" + 0.088*"swim" + 0.079*"team" + 0.069*"country" + 0.069*"win" + 0.061*"record" + 0.050*"medal" + 0.042*"sport" + 0.042*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.075): 0.096*"horse" + 0.066*"track" + 0.066*"odds" + 0.057*"race" + 0.057*"statistic" + 0.048*"win" + 0.048*"sire" + 0.048*"probability" + 0.048*"equation" + 0.048*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.127261, rho=0.296174
+2021-09-02 12:02:07 INFO: PROGRESS: pass 9, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.0759531, 0.05809527]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.076): 0.118*"gold" + 0.103*"olympic" + 0.097*"swim" + 0.081*"team" + 0.075*"country" + 0.075*"win" + 0.060*"record" + 0.053*"medal" + 0.038*"sport" + 0.038*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.058): 0.089*"horse" + 0.062*"track" + 0.062*"odds" + 0.054*"race" + 0.054*"statistic" + 0.047*"win" + 0.046*"sire" + 0.046*"probability" + 0.046*"equation" + 0.046*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.125671, rho=0.296174
+2021-09-02 12:02:07 INFO: PROGRESS: pass 10, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.05867968, 0.06410559]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.059): 0.107*"gold" + 0.098*"olympic" + 0.088*"swim" + 0.079*"team" + 0.069*"country" + 0.069*"win" + 0.060*"record" + 0.050*"medal" + 0.042*"sport" + 0.042*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.064): 0.095*"horse" + 0.066*"track" + 0.066*"odds" + 0.057*"race" + 0.057*"statistic" + 0.048*"win" + 0.048*"sire" + 0.048*"probability" + 0.048*"equation" + 0.048*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.121211, rho=0.283981
+2021-09-02 12:02:07 INFO: PROGRESS: pass 10, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.06603619, 0.050825585]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.066): 0.118*"gold" + 0.103*"olympic" + 0.097*"swim" + 0.081*"team" + 0.075*"country" + 0.075*"win" + 0.060*"record" + 0.053*"medal" + 0.038*"sport" + 0.038*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.051): 0.088*"horse" + 0.063*"track" + 0.063*"odds" + 0.055*"race" + 0.054*"statistic" + 0.047*"win" + 0.046*"sire" + 0.046*"probability" + 0.046*"equation" + 0.046*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.118966, rho=0.283981
+2021-09-02 12:02:07 INFO: PROGRESS: pass 11, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.052148443, 0.05601076]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.052): 0.107*"gold" + 0.098*"olympic" + 0.088*"swim" + 0.079*"team" + 0.069*"country" + 0.069*"win" + 0.060*"record" + 0.050*"medal" + 0.042*"sport" + 0.042*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.056): 0.094*"horse" + 0.066*"track" + 0.066*"odds" + 0.057*"race" + 0.057*"statistic" + 0.048*"win" + 0.048*"sire" + 0.048*"probability" + 0.048*"equation" + 0.048*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.115802, rho=0.273179
+2021-09-02 12:02:07 INFO: PROGRESS: pass 11, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.05853621, 0.04533118]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.059): 0.118*"gold" + 0.102*"olympic" + 0.096*"swim" + 0.081*"team" + 0.075*"country" + 0.075*"win" + 0.060*"record" + 0.053*"medal" + 0.038*"sport" + 0.038*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.045): 0.088*"horse" + 0.063*"track" + 0.063*"odds" + 0.055*"race" + 0.055*"statistic" + 0.047*"win" + 0.047*"sire" + 0.047*"probability" + 0.047*"equation" + 0.047*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.113441, rho=0.273179
+2021-09-02 12:02:07 INFO: PROGRESS: pass 12, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.047042828, 0.04987567]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.047): 0.107*"gold" + 0.098*"olympic" + 0.088*"swim" + 0.079*"team" + 0.069*"country" + 0.069*"win" + 0.060*"record" + 0.050*"medal" + 0.041*"sport" + 0.041*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.050): 0.094*"horse" + 0.066*"track" + 0.066*"odds" + 0.057*"race" + 0.057*"statistic" + 0.048*"win" + 0.048*"sire" + 0.048*"probability" + 0.048*"equation" + 0.048*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.110980, rho=0.263523
+2021-09-02 12:02:07 INFO: PROGRESS: pass 12, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.052667223, 0.041016754]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.053): 0.118*"gold" + 0.102*"olympic" + 0.096*"swim" + 0.081*"team" + 0.075*"country" + 0.075*"win" + 0.060*"record" + 0.053*"medal" + 0.038*"sport" + 0.038*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.041): 0.088*"horse" + 0.063*"track" + 0.063*"odds" + 0.055*"race" + 0.055*"statistic" + 0.047*"win" + 0.047*"sire" + 0.047*"probability" + 0.047*"equation" + 0.047*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.108704, rho=0.263523
+2021-09-02 12:02:07 INFO: PROGRESS: pass 13, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.042937502, 0.04505048]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.043): 0.107*"gold" + 0.098*"olympic" + 0.088*"swim" + 0.079*"team" + 0.069*"country" + 0.069*"win" + 0.060*"record" + 0.050*"medal" + 0.041*"sport" + 0.041*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.045): 0.094*"horse" + 0.066*"track" + 0.066*"odds" + 0.057*"race" + 0.057*"statistic" + 0.048*"win" + 0.048*"sire" + 0.048*"probability" + 0.048*"equation" + 0.048*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.106668, rho=0.254824
+2021-09-02 12:02:07 INFO: PROGRESS: pass 13, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.047947604, 0.037530657]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.048): 0.117*"gold" + 0.102*"olympic" + 0.096*"swim" + 0.081*"team" + 0.075*"country" + 0.075*"win" + 0.060*"record" + 0.053*"medal" + 0.038*"sport" + 0.038*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.038): 0.088*"horse" + 0.063*"track" + 0.063*"odds" + 0.055*"race" + 0.055*"statistic" + 0.047*"win" + 0.047*"sire" + 0.047*"probability" + 0.047*"equation" + 0.047*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.104546, rho=0.254824
+2021-09-02 12:02:07 INFO: PROGRESS: pass 14, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.03956101, 0.04114855]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.040): 0.107*"gold" + 0.098*"olympic" + 0.088*"swim" + 0.079*"team" + 0.069*"country" + 0.069*"win" + 0.060*"record" + 0.050*"medal" + 0.041*"sport" + 0.041*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.041): 0.094*"horse" + 0.066*"track" + 0.066*"odds" + 0.057*"race" + 0.057*"statistic" + 0.048*"win" + 0.048*"sire" + 0.048*"probability" + 0.048*"equation" + 0.048*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.102793, rho=0.246932
+2021-09-02 12:02:07 INFO: PROGRESS: pass 14, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.044067673, 0.034650236]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.044): 0.117*"gold" + 0.102*"olympic" + 0.096*"swim" + 0.081*"team" + 0.075*"country" + 0.075*"win" + 0.060*"record" + 0.053*"medal" + 0.038*"sport" + 0.038*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.035): 0.088*"horse" + 0.063*"track" + 0.063*"odds" + 0.055*"race" + 0.055*"statistic" + 0.047*"win" + 0.047*"sire" + 0.047*"probability" + 0.047*"equation" + 0.047*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.100840, rho=0.246932
+2021-09-02 12:02:07 INFO: PROGRESS: pass 15, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.03673222, 0.037923694]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.037): 0.108*"gold" + 0.098*"olympic" + 0.089*"swim" + 0.079*"team" + 0.070*"country" + 0.070*"win" + 0.060*"record" + 0.050*"medal" + 0.041*"sport" + 0.041*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.038): 0.094*"horse" + 0.066*"track" + 0.066*"odds" + 0.057*"race" + 0.057*"statistic" + 0.048*"win" + 0.048*"sire" + 0.048*"probability" + 0.048*"equation" + 0.048*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.099292, rho=0.239732
+2021-09-02 12:02:07 INFO: PROGRESS: pass 15, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.04081975, 0.03222704]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.041): 0.117*"gold" + 0.102*"olympic" + 0.096*"swim" + 0.081*"team" + 0.074*"country" + 0.074*"win" + 0.060*"record" + 0.053*"medal" + 0.038*"sport" + 0.038*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.032): 0.088*"horse" + 0.063*"track" + 0.063*"odds" + 0.055*"race" + 0.055*"statistic" + 0.047*"win" + 0.047*"sire" + 0.047*"probability" + 0.047*"equation" + 0.047*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.097502, rho=0.239732
+2021-09-02 12:02:07 INFO: PROGRESS: pass 16, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.034325648, 0.03521101]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.034): 0.108*"gold" + 0.098*"olympic" + 0.089*"swim" + 0.079*"team" + 0.070*"country" + 0.070*"win" + 0.060*"record" + 0.051*"medal" + 0.041*"sport" + 0.041*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.035): 0.094*"horse" + 0.066*"track" + 0.066*"odds" + 0.057*"race" + 0.057*"statistic" + 0.048*"win" + 0.048*"sire" + 0.048*"probability" + 0.048*"equation" + 0.048*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.096112, rho=0.233126
+2021-09-02 12:02:07 INFO: PROGRESS: pass 16, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.038059477, 0.030157981]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.038): 0.117*"gold" + 0.102*"olympic" + 0.096*"swim" + 0.081*"team" + 0.074*"country" + 0.074*"win" + 0.060*"record" + 0.053*"medal" + 0.038*"sport" + 0.038*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.030): 0.088*"horse" + 0.063*"track" + 0.063*"odds" + 0.055*"race" + 0.055*"statistic" + 0.047*"win" + 0.047*"sire" + 0.047*"probability" + 0.047*"equation" + 0.047*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.094470, rho=0.233126
+2021-09-02 12:02:07 INFO: PROGRESS: pass 17, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.032251634, 0.032895613]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.032): 0.108*"gold" + 0.098*"olympic" + 0.089*"swim" + 0.079*"team" + 0.070*"country" + 0.070*"win" + 0.060*"record" + 0.051*"medal" + 0.041*"sport" + 0.041*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.033): 0.093*"horse" + 0.066*"track" + 0.066*"odds" + 0.057*"race" + 0.057*"statistic" + 0.048*"win" + 0.048*"sire" + 0.048*"probability" + 0.048*"equation" + 0.048*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.093207, rho=0.227038
+2021-09-02 12:02:07 INFO: PROGRESS: pass 17, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.03568345, 0.02836912]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.036): 0.117*"gold" + 0.102*"olympic" + 0.096*"swim" + 0.081*"team" + 0.074*"country" + 0.074*"win" + 0.060*"record" + 0.053*"medal" + 0.038*"sport" + 0.038*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.028): 0.088*"horse" + 0.063*"track" + 0.063*"odds" + 0.055*"race" + 0.055*"statistic" + 0.047*"win" + 0.047*"sire" + 0.047*"probability" + 0.047*"equation" + 0.047*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.091699, rho=0.227038
+2021-09-02 12:02:07 INFO: PROGRESS: pass 18, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.03044437, 0.030894859]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.030): 0.108*"gold" + 0.099*"olympic" + 0.089*"swim" + 0.079*"team" + 0.070*"country" + 0.070*"win" + 0.060*"record" + 0.051*"medal" + 0.041*"sport" + 0.041*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.031): 0.093*"horse" + 0.066*"track" + 0.066*"odds" + 0.057*"race" + 0.057*"statistic" + 0.048*"win" + 0.048*"sire" + 0.048*"probability" + 0.048*"equation" + 0.048*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.090541, rho=0.221404
+2021-09-02 12:02:07 INFO: PROGRESS: pass 18, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.03361564, 0.026805943]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.034): 0.117*"gold" + 0.102*"olympic" + 0.095*"swim" + 0.081*"team" + 0.074*"country" + 0.074*"win" + 0.060*"record" + 0.053*"medal" + 0.038*"sport" + 0.038*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.027): 0.088*"horse" + 0.063*"track" + 0.063*"odds" + 0.055*"race" + 0.055*"statistic" + 0.047*"win" + 0.047*"sire" + 0.047*"probability" + 0.047*"equation" + 0.047*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.089153, rho=0.221404
+2021-09-02 12:02:07 INFO: PROGRESS: pass 19, at document #15/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 15 documents
+2021-09-02 12:02:07 DEBUG: 15/15 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.028854448, 0.029147696]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 15 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.029): 0.108*"gold" + 0.099*"olympic" + 0.089*"swim" + 0.079*"team" + 0.070*"country" + 0.070*"win" + 0.060*"record" + 0.051*"medal" + 0.041*"sport" + 0.041*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.029): 0.093*"horse" + 0.066*"track" + 0.066*"odds" + 0.057*"race" + 0.057*"statistic" + 0.048*"win" + 0.048*"sire" + 0.048*"probability" + 0.048*"equation" + 0.048*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.088084, rho=0.216169
+2021-09-02 12:02:07 INFO: PROGRESS: pass 19, at document #21/21
+2021-09-02 12:02:07 DEBUG: performing inference on a chunk of 6 documents
+2021-09-02 12:02:07 DEBUG: 6/6 documents converged within 100 iterations
+2021-09-02 12:02:07 INFO: optimized alpha [0.031798918, 0.025427364]
+2021-09-02 12:02:07 DEBUG: updating topics
+2021-09-02 12:02:07 INFO: merging changes from 6 documents into a model of 21 documents
+2021-09-02 12:02:07 INFO: topic #0 (0.032): 0.117*"gold" + 0.102*"olympic" + 0.095*"swim" + 0.081*"team" + 0.074*"country" + 0.074*"win" + 0.060*"record" + 0.053*"medal" + 0.038*"sport" + 0.038*"race"
+2021-09-02 12:02:07 INFO: topic #1 (0.025): 0.088*"horse" + 0.063*"track" + 0.063*"odds" + 0.055*"race" + 0.055*"statistic" + 0.047*"win" + 0.047*"sire" + 0.047*"probability" + 0.047*"equation" + 0.047*"model"
+2021-09-02 12:02:07 INFO: topic diff=0.086802, rho=0.216169
+2021-09-02 12:02:07 DEBUG: starting a new internal lifecycle event log for LdaModel
+2021-09-02 12:02:07 INFO: LdaModel lifecycle event {'msg': 'trained LdaModel(num_terms=29, num_topics=2, decay=0.5, chunksize=15) in 0.09s', 'datetime': '2021-09-02T12:02:07.957869', 'gensim': '4.0.1', 'python': '3.7.10 (default, Feb 26 2021, 13:06:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'created'}
+2021-09-02 12:02:07 INFO: END: Training Model 3, eta=1.000000, num_topics=2
+2021-09-02 12:02:07 INFO: --------------------------------------
+2021-09-02 12:02:07 INFO: --------------------------------------
+2021-09-02 12:02:07 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=2, decay=0.5, chunksize=15)
+2021-09-02 12:02:07 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=2, decay=0.5, chunksize=15)
+2021-09-02 12:02:07 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=2, decay=0.5, chunksize=15)
+2021-09-02 12:02:07 DEBUG: Setting topics to those of the model: LdaModel(num_terms=29, num_topics=2, decay=0.5, chunksize=15)
+2021-09-02 12:02:07 INFO: --------------------------------------
+2021-09-02 12:02:07 INFO: --------------------------------------
+2021-09-02 12:02:07 INFO: SUMMARY: 2-Topic Model, with grid over [0.001, 0.01, 0.1, 1]
+2021-09-02 12:02:07 INFO: {'etas': [0.001, 0.01, 0.1, 1], 'num_topics': 2, 'per_topic_summaries': [array([[-14.63744927,  -6.20374821],
+       [  2.23478055,   2.39256167],
+       [  1.07198083,   0.61725507],
+       [  0.        ,   0.2       ]]), array([[-14.63744927,  -6.20374821],
+       [  2.26559567,   2.41414189],
+       [  1.04285014,   0.59886965],
+       [  0.        ,   0.2       ]]), array([[-13.570797  ,  -6.16707577],
+       [  2.71304393,   2.62717175],
+       [  0.65329498,   0.43886638],
+       [  0.        ,   0.2       ]]), array([[ -6.44127576, -14.40860807],
+       [  2.97935486,   3.22244334],
+       [  0.36982688,   0.10660623],
+       [  0.        ,   0.2       ]])], 'model_list': [<gensim.models.ldamodel.LdaModel object at 0x000002165BD6E188>, <gensim.models.ldamodel.LdaModel object at 0x000002165B00D448>, <gensim.models.ldamodel.LdaModel object at 0x000002165BD6E108>, <gensim.models.ldamodel.LdaModel object at 0x000002165BD6E948>]}
+2021-09-02 12:02:07 INFO: END SUMMARY:
+2021-09-02 12:02:07 INFO: END: Optimizing 2-Topic Model
+2021-09-02 12:02:07 INFO: --------------------------------------
+2021-09-02 12:02:07 INFO: --------------------------------------
