@@ -27,6 +27,6 @@ See **ReadMe.pdf** file in src for details on code
 
 **Planned Future Additions**
 
-* Generalize code to allow not just analyses of documents by year but also analyses  by hours, days, months etc. -- or perhaps just any ordered variable. For my thesis, the analysis was by year, so some of the code assumes that the time labels given are years. I plan to generalize this.
+* Generalize code to allow not just analyses of documents by year but also analyses  by hours, days, months etc. -- or perhaps just any ordered variable. For my thesis, the analysis was by year, so some of the code assumes that the time labels given are years. 
 * Make LdaLogging.py functions for analyzing logs a bit more robust -- they should recognize when the log they are given does not contain the input needed to do what they are asked to do
 * Add a plotting demo notebook that uses open source data 
