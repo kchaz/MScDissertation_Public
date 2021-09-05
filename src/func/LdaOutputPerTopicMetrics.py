@@ -407,6 +407,7 @@ def topic_metric_order_plot(model, corpus, dictionary, metric,
                          outpath = fig_outpath,
                          dpi = dpi,
                          fig_override = fig_override,
+                         bbox_inches = "tight"
                         )   
     return(out)
 
