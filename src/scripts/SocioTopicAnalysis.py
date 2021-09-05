@@ -306,27 +306,35 @@ LdaOutputDocs.theta_hist_by_group(theta_dict[20],
 
 plt.close('all') #close to avoid consuming too much memory by leaving all these plots open
 print("Topics over time")
-#word plot just for topic 11, which shows that sporadic pattern and is highly incoherent
+
+#plot topic by year
 k=20
 per_year_topics_dict = LdaOutput.get_per_group_topics(wordtopic_dict[k], 
                                                       label_list = year_labels,
                                                       normalized = True,
                                                       save_dict = False, 
                                                      )
-_ = LdaOutputTimePlots.plot_topic_by_year(per_year_topics_dict, 
-                   topic_id = 11,
-                   model = model_dict[20],
-                   corpus = corpus,
-                   figsize = (20,22),
-                   dictionary = dictionary,
-                   lamb = 0.6, topn = 30,
-                   color = "green", alpha = 0.25,
-                   save_fig = True,
-                   fig_outpath = os.path.join(wordplot_path, "20topic"),
-                   fig_name = "socio_20topic_11wordtimeplot",
-                   dpi = dpi,
-                   fig_override = fig_override)
 
+for i in range(k):
+    _ = LdaOutputTimePlots.plot_topic_by_year(per_year_topics_dict, 
+                       topic_id = i,
+                       model = model_dict[k],
+                       corpus = corpus,
+                       figsize = (20,22),
+                       dictionary = dictionary,
+                       lamb = 0.6, 
+                       topn = 30,
+                       right_zoom = 1, #take out 2021 obs
+                       color = "green", 
+                       alpha = 0.25,
+                       save_fig = True,
+                       fig_outpath = os.path.join(wordplot_path, "20topic\\wordtimeplots"),
+                       fig_name = "socio_20topic_%dwordtimeplot" % i,
+                       dpi = dpi,
+                       fig_override = fig_override)
+
+
+plt.ghost
 
 #use this to take out 2021 for the two journals that have 2021 observations
 zoom_dict = {}
