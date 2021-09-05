@@ -52,7 +52,7 @@ fig_override = file_override_request()
 
 
 #set dpi for saving figures
-dpi = 150
+dpi = 300
 
 
 #Load data and extract key pieces
@@ -334,7 +334,6 @@ for i in range(k):
                        fig_override = fig_override)
 
 
-plt.ghost
 
 #use this to take out 2021 for the two journals that have 2021 observations
 zoom_dict = {}

@@ -53,7 +53,7 @@ fig_override = file_override_request()
 
 
 #set dpi for saving figures
-dpi = 150
+dpi = 300
 
 
 #Load data and extract year labels
