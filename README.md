@@ -15,7 +15,7 @@ See **ReadMe.pdf** file in src for details on code
 
 * **src** contains code mainly written in python scripts. Within it, **func** subfolder contains only scripts with functions. **scripts** subfolder contains scripts for running analysis, starting with Demog for Demography analysis and Socio for sociology analysis. **demos** contains demonstration notebooks.
 
-* **results** is for model and plot results from the analysis. Note that models are not included at this time. *Tip* if the plots show up too large when initially clicking on them, click "download" to view them sized to fit on screen.
+* **results** is for model and plot results from the analysis. Note that models are not included at this time. *Tip:* if the plots show up too large when initially clicking on them, click "download" to view them sized to fit on screen.
 
   
 
