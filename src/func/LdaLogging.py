@@ -32,7 +32,7 @@ from Helpers import figure_saver
 
 #### LOG SET-UP
 
-def _log_setup(filename, corpus, outpath = None, topn = 10, 
+def log_setup(filename, corpus, outpath = None, topn = 10, 
                callback_list = None,
                resolve_name = True,
                raise_error = False):
@@ -315,7 +315,7 @@ def LdaModelLogged(log_filename, log_outpath = None, resolve_name = True, raise_
     """
 
     #set-up logging, including check if file already exists
-    log, file_handle, callbacks = _log_setup(filename = log_filename,
+    log, file_handle, callbacks = log_setup(filename = log_filename,
                                              corpus = corpus,
                                              outpath = log_outpath,
                                              topn = topn_coherence,

@@ -103,7 +103,7 @@ def GridEta(etas, num_topics, corpus=None, dictionary=None, alpha='auto', #prima
         ignore those
         
         WARNING: for reasons not entirely clear to me, using these here increases size of final model
-        saved -- the worse the larger the grid of etas to search for. See more in docstring of _log_setup()
+        saved -- the worse the larger the grid of etas to search for. See more in docstring of log_setup()
         in LdaLogging.py. Using "convergence" logger here is particularly egregious and not advised.
         For this reason, default is not to use these here.
      
@@ -171,7 +171,7 @@ def GridEta(etas, num_topics, corpus=None, dictionary=None, alpha='auto', #prima
     #if asked to log, set-up logger, which checks if filename already exists
     callbacks = None #for if not logging
     if log_progress:
-        log, file_handle, callbacks = LdaLogging._log_setup(filename = log_filename,
+        log, file_handle, callbacks = LdaLogging.log_setup(filename = log_filename,
                               outpath = log_outpath,
                               corpus = corpus, 
                               topn = topn_coherence,
@@ -322,7 +322,7 @@ def GridEtaTopics(etas, num_topic_vals, corpus = None, dictionary = None,  alpha
         ignore those
         
         WARNING: for reasons not entirely clear to me, using these here increases size of final model
-        saved -- the worse the larger the grid of etas to search for. See more in docstring of _log_setup()
+        saved -- the worse the larger the grid of etas to search for. See more in docstring of log_setup()
         in LdaLogging.py. Using "convergence" logger here is particularly egregious and not advised.
         For this reason, default is not to use these here.
      
