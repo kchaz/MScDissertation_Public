@@ -39,7 +39,7 @@ from Helpers import figure_saver
 import Groupbox
 
 
-#### PPRE-PROCESSING ROUND 0 
+#### PRE-PROCESSING ROUND 0 
 # remove word or phrases from every abstract - particularly copyright statements
 # e.g. "Population Association of America"  from every Demography abstract
 
