@@ -1349,6 +1349,7 @@ def abstract_wordcounts(abstract_lst, years = None, plot = False, color = "purpl
                      outpath = fig_outpath,
                      dpi = dpi,
                      fig_override = fig_override,
+                     bbox_inches = "tight"
                     )   
         
     return(lengths)
