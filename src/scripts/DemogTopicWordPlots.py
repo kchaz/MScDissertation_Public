@@ -48,7 +48,7 @@ theta_override = file_override_request(message_2)
 
 
 #set dpi for saving figures
-dpi = 300
+dpi = 225
 
 
 
