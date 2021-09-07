@@ -9,7 +9,7 @@ documents (eg. topic size by group)
 It draws on calculations implemented in LdaOutput.py 
 
 Author: Kyla Chasalow
-Last edited: August 19, 2021
+Last edited: September 7, 2021
 
 
 """
@@ -399,8 +399,8 @@ def plot_topic_by_group(per_group_topics_dict, topic_id, model, corpus, dictiona
 #FUNCTION TO INSTEAD ISOLATE TOP WORDS BY GROUP 
 #the above looks only at overall most relevant words
 def topic_words_by_group_grid_plotter(topic_by_group_dict, value_type, title, ylabel, 
-                                      custom_groups =  None,
-                                      plot_overall_magnitudes = True, plot_title_and_legend = True,
+                                      custom_groups =  None, plot_overall_magnitudes = True,
+                                      plot_title_and_legend = True, h_pad = 8, w_pad = 10,
                                       save_fig = False, fig_outpath = None, 
                                       fig_name = None, dpi = 200,
                                       fig_override = False):
@@ -434,6 +434,12 @@ def topic_words_by_group_grid_plotter(topic_by_group_dict, value_type, title, yl
 
     plot_title_and_legend : bool, optional
         optionally turn off title and legend. The default is True.
+
+    h_pad and w_pad control the spacing between the plots in the grid.
+        Change w_pad to change the horizontal width between plots
+        Change h_pad to change the vertical height between plots
+        The default values of h_pad = 8 and w_pad = 10 usually work well 
+        but in some cases it may be necessary to tweak them. 
         
     save_fig...fig_override are the standard figure saving options. See 
         fig_saver() function in Helpers.py
@@ -481,6 +487,8 @@ def topic_words_by_group_grid_plotter(topic_by_group_dict, value_type, title, yl
                                       to_plot = list(range(len(group_subset))),
                                       label_list = group_subset,
                                       value_type = value_type,
+                                      h_pad = h_pad,
+                                      w_pad = w_pad,
                                       overall_magnitude_lists = overall_magnitude_lists,
                                       plot_overall_magnitudes = plot_overall_magnitudes,
                                       title = title, 
@@ -501,6 +509,7 @@ def plot_topic_words_by_group(wordtopic_array, group_list, to_plot_list,
                                   value_type, corpus, dictionary, custom_groups = None,
                                   topn = 20, lamb = 0.6, group_name = None, 
                                   plot_title_and_legend = True, plot_overall_magnitudes = True,
+                                  h_pad = 8, w_pad = 10,
                                   save_fig = False, fig_outpath = None, 
                                   fig_name = None, dpi = 200,
                                   fig_override = False):
@@ -561,6 +570,12 @@ def plot_topic_words_by_group(wordtopic_array, group_list, to_plot_list,
     plot_overall_magnitudes : bool, optional
         optionally turn off the overall corpus counts/probabilities (in blue/green)
         to only plot the topic-specific ones (in red/purple). The default is True.
+
+    h_pad and w_pad control the spacing between the plots in the grid.
+        Change w_pad to change the horizontal width between plots
+        Change h_pad to change the vertical height between plots
+        The default values of h_pad = 8 and w_pad = 10 usually work well 
+        but in some cases it may be necessary to tweak them. 
         
     save_fig...fig_override are the standard figure saving options. See 
         fig_saver() function in Helpers.py
@@ -626,6 +641,8 @@ def plot_topic_words_by_group(wordtopic_array, group_list, to_plot_list,
                            ylabel = "20 most relevant words within %s ($\lambda =$ %s)" % (group_name.lower(), str(lamb)),
                            plot_title_and_legend = plot_title_and_legend,
                            plot_overall_magnitudes = plot_overall_magnitudes,
+                           h_pad = h_pad,
+                           w_pad = w_pad, 
                            save_fig = save_fig,
                            fig_name = fig_name + str(i),
                            fig_override = fig_override,

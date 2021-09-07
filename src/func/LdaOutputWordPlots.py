@@ -157,7 +157,7 @@ def topic_word_barplot(word_list, topic_magnitudes, value_type,
 def topic_grid_plotter(word_lists, topic_magnitude_lists, 
                     to_plot, label_list, value_type,  
                     overall_magnitude_lists = None, plot_overall_magnitudes = True,
-                    title = "", ylabel = "",
+                    title = "", ylabel = "", h_pad = 8, w_pad = 10,
                     plot_title_and_legend = True, save_fig = False, fig_outpath = None, 
                     fig_name = "topic_barplot_grid", dpi = 200,
                     fig_override = False, display_figure = True):
@@ -199,6 +199,12 @@ def topic_grid_plotter(word_lists, topic_magnitude_lists,
         
         
     title : str, title of overall grid, default "" which amounts to no title
+    
+    h_pad and w_pad control the spacing between the plots in the grid.
+        Change w_pad to change the horizontal width between plots
+        Change h_pad to change the vertical height between plots
+        The default values of h_pad = 8 and w_pad = 10 usually work well 
+        but in some cases it may be necessary to tweak them.
     
     plot_title_and_legend : bool, optional
         If False, will not plot legend and title. The default is True.
@@ -272,7 +278,7 @@ def topic_grid_plotter(word_lists, topic_magnitude_lists,
     ylabel = ylabel
     fig.text(*ylabel_loc, ylabel,
              va='center', rotation='vertical', fontsize = 20)
-    fig.tight_layout(h_pad=10, w_pad = 14)
+    fig.tight_layout(h_pad= h_pad, w_pad =  w_pad)
 
     for i in range(ncol * nrow):
         ax = plt.subplot(nrow,ncol,i+1)
@@ -493,7 +499,7 @@ def topic_relevance_barplot(model, topicid, corpus, dictionary, value_type, thet
 
 def topic_relevance_grid(model, corpus, dictionary, value_type, plot_all_topics = True,
                          custom_list = None, theta_mat = None, lamb = 0.6, topn = 20,
-                         minimum_probability = .01, plot_overall_magnitudes = True,
+                         minimum_probability = .01, plot_overall_magnitudes = True, h_pad = 8, w_pad = 10,
                          plot_title_and_legend = True, first_title_only = False, custom_title = None,
                          save_all_plots = False, custom_name = None, dpi = 200, fig_outpath = None,
                          fig_override = False, display_figure = True):
@@ -546,6 +552,12 @@ def topic_relevance_grid(model, corpus, dictionary, value_type, plot_all_topics 
         cut-off to use when calculating theta_matrix if theta_matrix
         argument is None. The default is .01.
         
+    h_pad and w_pad control the spacing between the plots in the grid.
+        Change w_pad to change the horizontal width between plots
+        Change h_pad to change the vertical height between plots
+        The default values of h_pad = 8 and w_pad = 10 usually work well 
+        but in some cases it may be necessary to tweak them.
+    
     plot_title_and_legend : Bool, optional
         If True, plots title and legend. 
         If False, does not on any plot 
@@ -667,6 +679,8 @@ def topic_relevance_grid(model, corpus, dictionary, value_type, plot_all_topics 
                                   value_type = value_type,
                                   title = title,
                                   ylabel = ylabel,
+                                  h_pad = h_pad,
+                                  w_pad = w_pad, 
                                   plot_title_and_legend = plot_title_and_legend,
                                   plot_overall_magnitudes = plot_overall_magnitudes,
                                   save_fig = save_all_plots, 
