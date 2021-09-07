@@ -146,6 +146,7 @@ if RUNALL:
                               theta_mat = theta_dict[k], 
                               lamb = 0.6,
                               topn = 20,
+                              w_pad = 12, #adjust to make it a bit bigger
                               minimum_probability = .01, 
                               first_title_only = False,
                               save_all_plots = True, 
@@ -166,48 +167,27 @@ if RUNALL:
 
 #### A FEW SPECIFIC PLOTS 
 
-#networks
+#networks (first two) and race/ethicity (second two)
 LdaOutputWordPlots.topic_relevance_grid(model = model_dict[20],
                           corpus = corpus,
                           dictionary = dictionary,
                           plot_all_topics = False,
-                          custom_list = [12, 17],
+                          custom_list = [17, 12, 6, 1],
                           value_type = "counts",
                           theta_mat = theta_dict[20], 
                           lamb = 0.6,
                           topn = 20,
                           plot_title_and_legend = True,
+                          w_pad = 12, #adjust to make it a bit bigger
                           custom_title = "20-Topic Model \n", #" \n (ordered by relevance, $\lambda = 0.6$)",
                           save_all_plots = True, 
                           dpi = dpi, 
-                          custom_name = "socio_20_networks",
+                          custom_name = "socio_20_selection",
                           fig_outpath = os.path.join(plot_path, "20topic"),
                           first_title_only = False,
                           fig_override = fig_override,
                           display_figure = False,
                           )
-
-#Race/ethnicity
-LdaOutputWordPlots.topic_relevance_grid(model = model_dict[20],
-                          corpus = corpus,
-                          dictionary = dictionary,
-                          plot_all_topics = False,
-                          custom_list = [1,6],
-                          value_type = "counts",
-                          theta_mat = theta_dict[20], 
-                          lamb = 0.6,
-                          topn = 20,
-                          plot_title_and_legend = True,
-                          custom_title = "20-Topic Model \n", #" \n (ordered by relevance, $\lambda = 0.6$)",
-                          save_all_plots = True, 
-                          dpi = dpi, 
-                          custom_name = "socio_20_raceethnicity",
-                          fig_outpath = os.path.join(plot_path, "20topic"),
-                          first_title_only = False,
-                          fig_override = fig_override,
-                          display_figure = False,
-                          )
-
 
 #review/theory vs empirical/surveys
 LdaOutputWordPlots.topic_relevance_grid(model = model_dict[20],
@@ -219,6 +199,7 @@ LdaOutputWordPlots.topic_relevance_grid(model = model_dict[20],
                           theta_mat = theta_dict[20], 
                           lamb = 0.6,
                           topn = 20,
+                          w_pad = 12, #adjust to make it a bit bigger
                           plot_title_and_legend = True,
                           custom_title = "20-Topic Model \n", #" \n (ordered by relevance, $\lambda = 0.6$)",
                           save_all_plots = True, 
